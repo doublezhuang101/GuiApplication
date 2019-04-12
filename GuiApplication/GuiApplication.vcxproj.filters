@@ -36,14 +36,23 @@
     <ClCompile Include="GuiApplication.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="StudentMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="GuiApplication.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+    <QtMoc Include="StudentMenu.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="GuiApplication.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="StudentMenu.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>
