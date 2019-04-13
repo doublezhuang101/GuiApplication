@@ -3,6 +3,7 @@
 #include <QtWidgets/QMainWindow>
 #include "ui_GuiApplication.h"
 #include "StudentMenu.h"
+#include <QtSql>
 
 namespace Ui
 {
@@ -17,7 +18,12 @@ public:
 	GuiApplication(QWidget *parent = Q_NULLPTR);
 public Q_SLOT:
 	void condButtonPressed();
+	void connectMysql();
 private:
 	Ui::GuiApplicationClass ui;
 	StudentMenu *view;
+	QSqlDatabase db;
+	void InitMySql();
 };
+
+#endif
