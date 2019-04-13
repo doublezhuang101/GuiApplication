@@ -1,4 +1,6 @@
 <RCC>
-    <qresource prefix="GuiApplication">
+    <qresource prefix="/GuiApplication">
+        <file>blue background.jpg</file>
+        <file>MFC ODBC.png</file>
     </qresource>
 </RCC>

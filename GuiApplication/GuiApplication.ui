@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>600</width>
-    <height>400</height>
+    <width>833</width>
+    <height>518</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,23 +17,58 @@
    <widget class="QPushButton" name="startButton">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>170</y>
-      <width>75</width>
-      <height>23</height>
+      <x>430</x>
+      <y>390</y>
+      <width>101</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>Enter|进入</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-20</y>
+      <width>841</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="GuiApplication.qrc">:/GuiApplication/MFC ODBC.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="closeButton">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>390</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>X</string>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>startButton</zorder>
+   <zorder>closeButton</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>600</width>
+     <width>833</width>
      <height>23</height>
     </rect>
    </property>
@@ -52,5 +87,22 @@
  <resources>
   <include location="GuiApplication.qrc"/>
  </resources>
- <connections/>
+ <connections>
+  <connection>
+   <sender>closeButton</sender>
+   <signal>clicked()</signal>
+   <receiver>GuiApplicationClass</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>635</x>
+     <y>440</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>416</x>
+     <y>258</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>

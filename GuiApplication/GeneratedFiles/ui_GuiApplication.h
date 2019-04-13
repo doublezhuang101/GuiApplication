@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
@@ -25,6 +26,8 @@ class Ui_GuiApplicationClass
 public:
     QWidget *centralWidget;
     QPushButton *startButton;
+    QLabel *label;
+    QPushButton *closeButton;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -33,16 +36,27 @@ public:
     {
         if (GuiApplicationClass->objectName().isEmpty())
             GuiApplicationClass->setObjectName(QString::fromUtf8("GuiApplicationClass"));
-        GuiApplicationClass->resize(600, 400);
+        GuiApplicationClass->resize(833, 518);
         centralWidget = new QWidget(GuiApplicationClass);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         startButton = new QPushButton(centralWidget);
         startButton->setObjectName(QString::fromUtf8("startButton"));
-        startButton->setGeometry(QRect(270, 170, 75, 23));
+        startButton->setGeometry(QRect(430, 390, 101, 31));
+        label = new QLabel(centralWidget);
+        label->setObjectName(QString::fromUtf8("label"));
+        label->setGeometry(QRect(-10, -20, 841, 491));
+        label->setPixmap(QPixmap(QString::fromUtf8(":/GuiApplication/MFC ODBC.png")));
+        label->setScaledContents(true);
+        closeButton = new QPushButton(centralWidget);
+        closeButton->setObjectName(QString::fromUtf8("closeButton"));
+        closeButton->setGeometry(QRect(620, 390, 31, 31));
         GuiApplicationClass->setCentralWidget(centralWidget);
+        label->raise();
+        startButton->raise();
+        closeButton->raise();
         menuBar = new QMenuBar(GuiApplicationClass);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 600, 23));
+        menuBar->setGeometry(QRect(0, 0, 833, 23));
         GuiApplicationClass->setMenuBar(menuBar);
         mainToolBar = new QToolBar(GuiApplicationClass);
         mainToolBar->setObjectName(QString::fromUtf8("mainToolBar"));
@@ -52,6 +66,7 @@ public:
         GuiApplicationClass->setStatusBar(statusBar);
 
         retranslateUi(GuiApplicationClass);
+        QObject::connect(closeButton, SIGNAL(clicked()), GuiApplicationClass, SLOT(close()));
 
         QMetaObject::connectSlotsByName(GuiApplicationClass);
     } // setupUi
@@ -59,7 +74,9 @@ public:
     void retranslateUi(QMainWindow *GuiApplicationClass)
     {
         GuiApplicationClass->setWindowTitle(QApplication::translate("GuiApplicationClass", "GuiApplication", nullptr));
-        startButton->setText(QApplication::translate("GuiApplicationClass", "PushButton", nullptr));
+        startButton->setText(QApplication::translate("GuiApplicationClass", "Enter|\350\277\233\345\205\245", nullptr));
+        label->setText(QString());
+        closeButton->setText(QApplication::translate("GuiApplicationClass", "X", nullptr));
     } // retranslateUi
 
 };
