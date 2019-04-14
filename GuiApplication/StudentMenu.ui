@@ -155,22 +155,5 @@
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>
- <connections>
-  <connection>
-   <sender>Exit</sender>
-   <signal>clicked()</signal>
-   <receiver>StudentMenu</receiver>
-   <slot>close()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>705</x>
-     <y>465</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>419</x>
-     <y>259</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
 </ui>

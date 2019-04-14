@@ -89,7 +89,6 @@ public:
         GuiApplicationClass->setStatusBar(statusBar);
 
         retranslateUi(GuiApplicationClass);
-        QObject::connect(closeButton, SIGNAL(clicked()), GuiApplicationClass, SLOT(close()));
 
         QMetaObject::connectSlotsByName(GuiApplicationClass);
     } // setupUi

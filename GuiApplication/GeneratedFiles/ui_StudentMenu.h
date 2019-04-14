@@ -71,7 +71,6 @@ public:
         label_2->setStyleSheet(QString::fromUtf8("font: 30pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
 
         retranslateUi(StudentMenu);
-        QObject::connect(Exit, SIGNAL(clicked()), StudentMenu, SLOT(close()));
 
         QMetaObject::connectSlotsByName(StudentMenu);
     } // setupUi
