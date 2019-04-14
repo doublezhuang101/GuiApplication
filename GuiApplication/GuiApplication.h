@@ -16,7 +16,7 @@ class GuiApplication : public QMainWindow
 
 public:
 	GuiApplication(QWidget *parent = Q_NULLPTR);
-public Q_SLOT:
+private Q_SLOT:
 	void condButtonPressed();
 	void connectMysql();
 private:
@@ -25,5 +25,3 @@ private:
 	QSqlDatabase db;
 	void InitMySql();
 };
-
-#endif
