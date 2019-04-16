@@ -3,6 +3,7 @@
 #include <QWidget>
 #include "ui_StudentMenu.h"
 #include "FormHomePage.h"
+#include "DeletePage.h"
 
 class StudentMenu : public QWidget
 {
@@ -13,7 +14,9 @@ public:
 	~StudentMenu();
 private	 Q_SLOT:
 	void ShowFormPage();
+	void ShowDeletePage();
 private:
 	Ui::StudentMenu ui;
 	FormHomePage view;
+	DeletePage view2;
 };

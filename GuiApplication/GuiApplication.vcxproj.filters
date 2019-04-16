@@ -42,6 +42,15 @@
     <ClCompile Include="FormHomePage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DeletePage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseDesign.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevisePage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="GuiApplication.h">
@@ -51,6 +60,12 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="FormHomePage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="DeletePage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="RevisePage.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
@@ -64,10 +79,21 @@
     <QtUic Include="FormHomePage.ui">
       <Filter>Form Files</Filter>
     </QtUic>
+    <QtUic Include="DeletePage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="RevisePage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="GuiApplication.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CourseDesign.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

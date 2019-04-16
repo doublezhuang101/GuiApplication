@@ -32,7 +32,7 @@
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="EnterButton">
    <property name="geometry">
     <rect>
      <x>270</x>
@@ -45,7 +45,7 @@
     <string>1.录入学生成绩</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="DeleteButton">
    <property name="geometry">
     <rect>
      <x>270</x>
@@ -58,7 +58,7 @@
     <string>2.删除学生成绩</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_3">
+  <widget class="QPushButton" name="ReviseButton">
    <property name="geometry">
     <rect>
      <x>270</x>
@@ -71,7 +71,7 @@
     <string>3.修改学生成绩</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_4">
+  <widget class="QPushButton" name="DisPlayButton">
    <property name="geometry">
     <rect>
      <x>270</x>
@@ -84,7 +84,7 @@
     <string>4.显示全部学生成绩</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_5">
+  <widget class="QPushButton" name="CalculationButton">
    <property name="geometry">
     <rect>
      <x>270</x>
@@ -97,7 +97,7 @@
     <string>5.计算平均成绩</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_6">
+  <widget class="QPushButton" name="QueryButton">
    <property name="geometry">
     <rect>
      <x>270</x>
@@ -110,7 +110,7 @@
     <string>6.查询学生成绩(学号，姓名)</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_7">
+  <widget class="QPushButton" name="RankButton">
    <property name="geometry">
     <rect>
      <x>270</x>
@@ -155,5 +155,22 @@
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>EnterButton</sender>
+   <signal>clicked()</signal>
+   <receiver>EnterButton</receiver>
+   <slot>showMenu()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>396</x>
+     <y>144</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>396</x>
+     <y>144</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
