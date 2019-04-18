@@ -5,6 +5,7 @@
 class CourseDesign
 {
 public:
+
 	CourseDesign();
 	~CourseDesign();
 };

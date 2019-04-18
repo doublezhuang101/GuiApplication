@@ -54,6 +54,15 @@
     <ClCompile Include="SearchPage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="RankPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntryPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CalculationPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="GuiApplication.h">
@@ -74,6 +83,15 @@
     <QtMoc Include="SearchPage.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+    <QtMoc Include="RankPage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="EntryPage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CalculationPage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="GuiApplication.ui">
@@ -92,6 +110,15 @@
       <Filter>Form Files</Filter>
     </QtUic>
     <QtUic Include="SearchPage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="RankPage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="EntryPage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="CalculationPage.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>

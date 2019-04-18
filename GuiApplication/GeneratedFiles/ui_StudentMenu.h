@@ -21,7 +21,7 @@ class Ui_StudentMenu
 {
 public:
     QLabel *label;
-    QPushButton *EnterButton;
+    QPushButton *EntryButton;
     QPushButton *DeleteButton;
     QPushButton *ReviseButton;
     QPushButton *DisPlayButton;
@@ -41,9 +41,9 @@ public:
         label->setGeometry(QRect(-10, -10, 871, 541));
         label->setPixmap(QPixmap(QString::fromUtf8("../../QtGuiApplication/QtGuiApplication1/normal background.jpg")));
         label->setScaledContents(true);
-        EnterButton = new QPushButton(StudentMenu);
-        EnterButton->setObjectName(QString::fromUtf8("EnterButton"));
-        EnterButton->setGeometry(QRect(270, 130, 251, 31));
+        EntryButton = new QPushButton(StudentMenu);
+        EntryButton->setObjectName(QString::fromUtf8("EntryButton"));
+        EntryButton->setGeometry(QRect(270, 130, 251, 31));
         DeleteButton = new QPushButton(StudentMenu);
         DeleteButton->setObjectName(QString::fromUtf8("DeleteButton"));
         DeleteButton->setGeometry(QRect(270, 170, 251, 31));
@@ -79,7 +79,7 @@ public:
     {
         StudentMenu->setWindowTitle(QApplication::translate("StudentMenu", "StudentMenu", nullptr));
         label->setText(QString());
-        EnterButton->setText(QApplication::translate("StudentMenu", "1.\345\275\225\345\205\245\345\255\246\347\224\237\346\210\220\347\273\251", nullptr));
+        EntryButton->setText(QApplication::translate("StudentMenu", "1.\345\275\225\345\205\245\345\255\246\347\224\237\346\210\220\347\273\251", nullptr));
         DeleteButton->setText(QApplication::translate("StudentMenu", "2.\345\210\240\351\231\244\345\255\246\347\224\237\346\210\220\347\273\251", nullptr));
         ReviseButton->setText(QApplication::translate("StudentMenu", "3.\344\277\256\346\224\271\345\255\246\347\224\237\346\210\220\347\273\251", nullptr));
         DisPlayButton->setText(QApplication::translate("StudentMenu", "4.\346\230\276\347\244\272\345\205\250\351\203\250\345\255\246\347\224\237\344\277\241\346\201\257", nullptr));
