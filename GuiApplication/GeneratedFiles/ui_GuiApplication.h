@@ -62,7 +62,7 @@ public:
         pushButton_2->setGeometry(QRect(180, 440, 75, 23));
         tableView = new QTableView(centralWidget);
         tableView->setObjectName(QString::fromUtf8("tableView"));
-        tableView->setGeometry(QRect(50, 30, 256, 192));
+        tableView->setGeometry(QRect(110, 110, 256, 192));
         label_2 = new QLabel(centralWidget);
         label_2->setObjectName(QString::fromUtf8("label_2"));
         label_2->setGeometry(QRect(550, 50, 54, 12));

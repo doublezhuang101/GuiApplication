@@ -10,6 +10,8 @@ GuiApplication::GuiApplication(QWidget *parent)
 	ui.setupUi(this);
 	
 	setWindowTitle(QString::fromUtf8("设计者2018023417，苗壮"));
+	QStringList drivers = QSqlDatabase::drivers();//打印MySQL驱动查看
+	qDebug() << drivers;
 	InitMySql();
 	connect(ui.startButton, &QPushButton::clicked, this, &GuiApplication::condButtonPressed);
 	connect(ui.closeButton, &QPushButton::clicked, this, &GuiApplication::close);
@@ -55,7 +57,7 @@ void GuiApplication::connectMysql()
 		qDebug() << "success!";
 		QSqlQueryModel *model = new QSqlQueryModel();
 		model->setQuery("select *form studentinformation");
-		//ui.tableview->setModel(model);
+		ui.tableView->setModel(model);
 		db.close();
 	}
 	else
