@@ -16,9 +16,7 @@
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QStatusBar>
 #include <QtWidgets/QTableView>
-#include <QtWidgets/QTableWidget>
 #include <QtWidgets/QToolBar>
 #include <QtWidgets/QWidget>
 
@@ -31,62 +29,58 @@ public:
     QPushButton *startButton;
     QLabel *label;
     QPushButton *closeButton;
-    QTableWidget *tablewidget;
     QPushButton *pushButton;
     QPushButton *pushButton_2;
-    QTableView *tableview;
+    QTableView *tableView;
+    QLabel *label_2;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
-    QStatusBar *statusBar;
 
     void setupUi(QMainWindow *GuiApplicationClass)
     {
         if (GuiApplicationClass->objectName().isEmpty())
             GuiApplicationClass->setObjectName(QString::fromUtf8("GuiApplicationClass"));
-        GuiApplicationClass->resize(909, 631);
+        GuiApplicationClass->resize(905, 534);
         centralWidget = new QWidget(GuiApplicationClass);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         startButton = new QPushButton(centralWidget);
         startButton->setObjectName(QString::fromUtf8("startButton"));
-        startButton->setGeometry(QRect(430, 390, 101, 31));
+        startButton->setGeometry(QRect(450, 410, 101, 31));
         label = new QLabel(centralWidget);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(0, 10, 101, 71));
+        label->setGeometry(QRect(0, -10, 921, 511));
         label->setPixmap(QPixmap(QString::fromUtf8(":/GuiApplication/MFC ODBC.png")));
         label->setScaledContents(true);
         closeButton = new QPushButton(centralWidget);
         closeButton->setObjectName(QString::fromUtf8("closeButton"));
-        closeButton->setGeometry(QRect(620, 390, 31, 31));
-        tablewidget = new QTableWidget(centralWidget);
-        tablewidget->setObjectName(QString::fromUtf8("tablewidget"));
-        tablewidget->setGeometry(QRect(420, 60, 471, 261));
+        closeButton->setGeometry(QRect(630, 410, 31, 31));
         pushButton = new QPushButton(centralWidget);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
         pushButton->setGeometry(QRect(180, 400, 75, 23));
         pushButton_2 = new QPushButton(centralWidget);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
         pushButton_2->setGeometry(QRect(180, 440, 75, 23));
-        tableview = new QTableView(centralWidget);
-        tableview->setObjectName(QString::fromUtf8("tableview"));
-        tableview->setGeometry(QRect(70, 90, 256, 192));
+        tableView = new QTableView(centralWidget);
+        tableView->setObjectName(QString::fromUtf8("tableView"));
+        tableView->setGeometry(QRect(50, 50, 256, 192));
+        label_2 = new QLabel(centralWidget);
+        label_2->setObjectName(QString::fromUtf8("label_2"));
+        label_2->setGeometry(QRect(410, 60, 54, 12));
         GuiApplicationClass->setCentralWidget(centralWidget);
         label->raise();
         startButton->raise();
         closeButton->raise();
-        tablewidget->raise();
         pushButton->raise();
         pushButton_2->raise();
-        tableview->raise();
+        tableView->raise();
+        label_2->raise();
         menuBar = new QMenuBar(GuiApplicationClass);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 909, 23));
+        menuBar->setGeometry(QRect(0, 0, 905, 23));
         GuiApplicationClass->setMenuBar(menuBar);
         mainToolBar = new QToolBar(GuiApplicationClass);
         mainToolBar->setObjectName(QString::fromUtf8("mainToolBar"));
         GuiApplicationClass->addToolBar(Qt::TopToolBarArea, mainToolBar);
-        statusBar = new QStatusBar(GuiApplicationClass);
-        statusBar->setObjectName(QString::fromUtf8("statusBar"));
-        GuiApplicationClass->setStatusBar(statusBar);
 
         retranslateUi(GuiApplicationClass);
 
@@ -101,6 +95,7 @@ public:
         closeButton->setText(QApplication::translate("GuiApplicationClass", "X", nullptr));
         pushButton->setText(QApplication::translate("GuiApplicationClass", "PushButton", nullptr));
         pushButton_2->setText(QApplication::translate("GuiApplicationClass", "PushButton", nullptr));
+        label_2->setText(QApplication::translate("GuiApplicationClass", "TextLabel", nullptr));
     } // retranslateUi
 
 };

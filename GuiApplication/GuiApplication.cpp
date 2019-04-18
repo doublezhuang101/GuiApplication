@@ -36,8 +36,16 @@ void GuiApplication::InitMySql()
 	db.setUserName("root");
 	db.setPassword("kuandong1227");     //设置数据库连接账号的密码
 	bool ok = db.open();
-	if (ok)  qDebug() << "OK";
-	else qDebug() << "False";
+	if (ok)
+	{
+		qDebug() << "OK";
+		ui.label_2->setText("OK");
+	}
+	else
+	{
+		qDebug() << "False";
+		ui.label_2->setText("false");
+	}
 }
 
 void GuiApplication::connectMysql()
@@ -47,7 +55,7 @@ void GuiApplication::connectMysql()
 		qDebug() << "success!";
 		QSqlQueryModel *model = new QSqlQueryModel();
 		model->setQuery("select *form studentinformation");
-		ui.tableview->setModel(model);
+		//ui.tableview->setModel(model);
 		db.close();
 	}
 	else

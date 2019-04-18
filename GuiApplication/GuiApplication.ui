@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>909</width>
-    <height>631</height>
+    <width>905</width>
+    <height>534</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,8 +17,8 @@
    <widget class="QPushButton" name="startButton">
     <property name="geometry">
      <rect>
-      <x>430</x>
-      <y>390</y>
+      <x>450</x>
+      <y>410</y>
       <width>101</width>
       <height>31</height>
      </rect>
@@ -31,9 +31,9 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>10</y>
-      <width>101</width>
-      <height>71</height>
+      <y>-10</y>
+      <width>921</width>
+      <height>511</height>
      </rect>
     </property>
     <property name="text">
@@ -49,24 +49,14 @@
    <widget class="QPushButton" name="closeButton">
     <property name="geometry">
      <rect>
-      <x>620</x>
-      <y>390</y>
+      <x>630</x>
+      <y>410</y>
       <width>31</width>
       <height>31</height>
      </rect>
     </property>
     <property name="text">
      <string>X</string>
-    </property>
-   </widget>
-   <widget class="QTableWidget" name="tablewidget">
-    <property name="geometry">
-     <rect>
-      <x>420</x>
-      <y>60</y>
-      <width>471</width>
-      <height>261</height>
-     </rect>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
@@ -95,30 +85,43 @@
      <string>PushButton</string>
     </property>
    </widget>
-   <widget class="QTableView" name="tableview">
+   <widget class="QTableView" name="tableView">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>90</y>
+      <x>50</x>
+      <y>50</y>
       <width>256</width>
       <height>192</height>
      </rect>
     </property>
    </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>60</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
    <zorder>label</zorder>
    <zorder>startButton</zorder>
    <zorder>closeButton</zorder>
-   <zorder>tablewidget</zorder>
    <zorder>pushButton</zorder>
    <zorder>pushButton_2</zorder>
-   <zorder>tableview</zorder>
+   <zorder>tableView</zorder>
+   <zorder>label_2</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>909</width>
+     <width>905</width>
      <height>23</height>
     </rect>
    </property>
@@ -131,7 +134,6 @@
     <bool>false</bool>
    </attribute>
   </widget>
-  <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources>

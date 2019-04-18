@@ -7,8 +7,9 @@ StudentMenu::StudentMenu(QWidget *parent)
 {
 	ui.setupUi(this);
 	connect(ui.Exit, &QPushButton::clicked, this, &StudentMenu::close);
-	connect(ui.EnterButton, &QPushButton::clicked, this, &StudentMenu::ShowFormPage);
+	connect(ui.DisPlayButton, &QPushButton::clicked, this, &StudentMenu::ShowFormPage);
 	connect(ui.DeleteButton, &QPushButton::clicked, this, &StudentMenu::ShowDeletePage);
+	connect(ui.ReviseButton, &QPushButton::clicked, this, &StudentMenu::ShowRevisePage);
 }
 
 void StudentMenu::ShowFormPage()
@@ -20,6 +21,11 @@ void StudentMenu::ShowFormPage()
 void StudentMenu::ShowDeletePage()
 {
 	view2.show();
+}
+
+void StudentMenu::ShowRevisePage()
+{
+	view3.show();
 }
 
 StudentMenu::~StudentMenu()

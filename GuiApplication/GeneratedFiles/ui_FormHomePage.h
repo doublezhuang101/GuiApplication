@@ -26,7 +26,7 @@ public:
     {
         if (FormHomePage->objectName().isEmpty())
             FormHomePage->setObjectName(QString::fromUtf8("FormHomePage"));
-        FormHomePage->resize(960, 573);
+        FormHomePage->resize(872, 278);
         tableWidget = new QTableWidget(FormHomePage);
         if (tableWidget->columnCount() < 8)
             tableWidget->setColumnCount(8);
@@ -47,7 +47,7 @@ public:
         QTableWidgetItem *__qtablewidgetitem7 = new QTableWidgetItem();
         tableWidget->setHorizontalHeaderItem(7, __qtablewidgetitem7);
         tableWidget->setObjectName(QString::fromUtf8("tableWidget"));
-        tableWidget->setGeometry(QRect(70, 180, 821, 192));
+        tableWidget->setGeometry(QRect(20, 30, 821, 192));
 
         retranslateUi(FormHomePage);
 

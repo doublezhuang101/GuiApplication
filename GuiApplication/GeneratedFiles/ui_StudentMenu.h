@@ -26,7 +26,7 @@ public:
     QPushButton *ReviseButton;
     QPushButton *DisPlayButton;
     QPushButton *CalculationButton;
-    QPushButton *QueryButton;
+    QPushButton *SearchButton;
     QPushButton *RankButton;
     QPushButton *Exit;
     QLabel *label_2;
@@ -56,9 +56,9 @@ public:
         CalculationButton = new QPushButton(StudentMenu);
         CalculationButton->setObjectName(QString::fromUtf8("CalculationButton"));
         CalculationButton->setGeometry(QRect(270, 290, 251, 31));
-        QueryButton = new QPushButton(StudentMenu);
-        QueryButton->setObjectName(QString::fromUtf8("QueryButton"));
-        QueryButton->setGeometry(QRect(270, 330, 251, 31));
+        SearchButton = new QPushButton(StudentMenu);
+        SearchButton->setObjectName(QString::fromUtf8("SearchButton"));
+        SearchButton->setGeometry(QRect(270, 330, 251, 31));
         RankButton = new QPushButton(StudentMenu);
         RankButton->setObjectName(QString::fromUtf8("RankButton"));
         RankButton->setGeometry(QRect(270, 370, 251, 31));
@@ -71,7 +71,6 @@ public:
         label_2->setStyleSheet(QString::fromUtf8("font: 30pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
 
         retranslateUi(StudentMenu);
-        QObject::connect(EnterButton, SIGNAL(clicked()), EnterButton, SLOT(showMenu()));
 
         QMetaObject::connectSlotsByName(StudentMenu);
     } // setupUi
@@ -83,10 +82,10 @@ public:
         EnterButton->setText(QApplication::translate("StudentMenu", "1.\345\275\225\345\205\245\345\255\246\347\224\237\346\210\220\347\273\251", nullptr));
         DeleteButton->setText(QApplication::translate("StudentMenu", "2.\345\210\240\351\231\244\345\255\246\347\224\237\346\210\220\347\273\251", nullptr));
         ReviseButton->setText(QApplication::translate("StudentMenu", "3.\344\277\256\346\224\271\345\255\246\347\224\237\346\210\220\347\273\251", nullptr));
-        DisPlayButton->setText(QApplication::translate("StudentMenu", "4.\346\230\276\347\244\272\345\205\250\351\203\250\345\255\246\347\224\237\346\210\220\347\273\251", nullptr));
+        DisPlayButton->setText(QApplication::translate("StudentMenu", "4.\346\230\276\347\244\272\345\205\250\351\203\250\345\255\246\347\224\237\344\277\241\346\201\257", nullptr));
         CalculationButton->setText(QApplication::translate("StudentMenu", "5.\350\256\241\347\256\227\345\271\263\345\235\207\346\210\220\347\273\251", nullptr));
-        QueryButton->setText(QApplication::translate("StudentMenu", "6.\346\237\245\350\257\242\345\255\246\347\224\237\346\210\220\347\273\251(\345\255\246\345\217\267\357\274\214\345\247\223\345\220\215)", nullptr));
-        RankButton->setText(QApplication::translate("StudentMenu", "7.\346\214\211\344\270\200\347\247\221\346\210\220\347\273\251\346\216\222\345\272\217", nullptr));
+        SearchButton->setText(QApplication::translate("StudentMenu", "6.\346\237\245\350\257\242\345\255\246\347\224\237\346\210\220\347\273\251(\345\255\246\345\217\267\357\274\214\345\247\223\345\220\215)", nullptr));
+        RankButton->setText(QApplication::translate("StudentMenu", "7.\346\214\211\345\215\225\347\247\221\346\210\220\347\273\251\346\216\222\345\272\217", nullptr));
         Exit->setText(QApplication::translate("StudentMenu", "Exit", nullptr));
         label_2->setText(QApplication::translate("StudentMenu", "\345\255\246\347\224\237\344\277\241\346\201\257\347\256\241\347\220\206\347\263\273\347\273\237\350\217\234\345\215\225", nullptr));
     } // retranslateUi

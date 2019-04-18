@@ -51,6 +51,9 @@
     <ClCompile Include="RevisePage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SearchPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="GuiApplication.h">
@@ -68,6 +71,9 @@
     <QtMoc Include="RevisePage.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+    <QtMoc Include="SearchPage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="GuiApplication.ui">
@@ -83,6 +89,9 @@
       <Filter>Form Files</Filter>
     </QtUic>
     <QtUic Include="RevisePage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="SearchPage.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>

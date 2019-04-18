@@ -81,7 +81,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>4.显示全部学生成绩</string>
+    <string>4.显示全部学生信息</string>
    </property>
   </widget>
   <widget class="QPushButton" name="CalculationButton">
@@ -97,7 +97,7 @@
     <string>5.计算平均成绩</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="QueryButton">
+  <widget class="QPushButton" name="SearchButton">
    <property name="geometry">
     <rect>
      <x>270</x>
@@ -120,7 +120,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>7.按一科成绩排序</string>
+    <string>7.按单科成绩排序</string>
    </property>
   </widget>
   <widget class="QPushButton" name="Exit">
@@ -155,22 +155,5 @@
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>
- <connections>
-  <connection>
-   <sender>EnterButton</sender>
-   <signal>clicked()</signal>
-   <receiver>EnterButton</receiver>
-   <slot>showMenu()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>396</x>
-     <y>144</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>396</x>
-     <y>144</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
 </ui>
