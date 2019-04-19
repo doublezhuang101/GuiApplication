@@ -60,6 +60,7 @@ void GuiApplication::connectMysql()
 		ui.tableView->setModel(model);
 		db.close();
 	}
+
 	else
 	{
 		qDebug() << "fail";
