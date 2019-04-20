@@ -48,6 +48,7 @@ void GuiApplication::InitMySql()
 		qDebug() << "False";
 		ui.label_2->setText("false");
 	}
+
 }
 
 void GuiApplication::connectMysql()
