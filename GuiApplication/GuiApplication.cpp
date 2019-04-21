@@ -48,7 +48,6 @@ void GuiApplication::InitMySql()
 		qDebug() << "False";
 		ui.label_2->setText("false");
 	}
-
 }
 
 void GuiApplication::connectMysql()
@@ -57,7 +56,7 @@ void GuiApplication::connectMysql()
 	{
 		qDebug() << "success!";
 		QSqlQueryModel *model = new QSqlQueryModel();
-		model->setQuery("select *form studentinformation");
+		model->setQuery("select *form password.studentinformation");
 		ui.tableView->setModel(model);
 		db.close();
 	}
