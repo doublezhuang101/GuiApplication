@@ -56,7 +56,7 @@ void GuiApplication::connectMysql()
 	{
 		qDebug() << "success!";
 		QSqlQueryModel *model = new QSqlQueryModel();
-		model->setQuery("select *form password.studentinformation");
+		model->setQuery("SELECT * FROM `password`.`studentinformation` LIMIT 0,1000");
 		ui.tableView->setModel(model);
 		db.close();
 	}
