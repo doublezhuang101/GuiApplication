@@ -1,5 +1,4 @@
 #include "GuiApplication.h"
-#include <iostream>
 #include <QtWidgets/QApplication>
 #include <qdebug.h>
 using namespace std;

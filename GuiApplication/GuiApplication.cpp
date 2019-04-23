@@ -1,5 +1,9 @@
 #include "GuiApplication.h"
 #include "ui_StudentMenu.h"
+#include <QSqlQuery>
+#include <QSqlTableModel>
+#include <QSqlError>
+#include <QMessageBox>
 #if _MSC_VER >= 1600
 #pragma execution_character_set("utf-8")
 #endif
@@ -22,8 +26,8 @@ GuiApplication::GuiApplication(QWidget *parent)
 
 void GuiApplication::condButtonPressed()
 {
-	//StudentMenu w;
-	//w.show();
+	StudentMenu w;
+	w.show();
 	qDebug("succeed");
 	view = new StudentMenu();
 	view->show();
@@ -52,9 +56,34 @@ void GuiApplication::InitMySql()
 
 void GuiApplication::connectMysql()
 {
+	QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
+	db.setHostName("localhost");
+	db.setPort(3306);
+	db.setDatabaseName("mysql");
+	db.setUserName("root");
+	db.setPassword("kuandong1227");     //设置数据库连接账号的密码
+	bool ok = db.open();
+	if (ok)
+	{
+		qDebug() << "OK";
+		ui.label_2->setText("OK");
+	}
+	else
+	{
+		qDebug() << "False";
+		ui.label_2->setText("false");
+	}
 	if (db.open())
 	{
 		qDebug() << "success!";
+		/*QSqlTableModel *model = new QSqlTableModel(this);
+		model->setTable("studentinformation");
+		model->select();
+		model->setEditStrategy(QSqlTableModel::OnManualSubmit);
+		ui.tableView->setModel(model);
+		model->setTable("studentinformation");
+		model->select();
+		qDebug() << "fail";*/
 		QSqlQueryModel *model = new QSqlQueryModel();
 		model->setQuery("SELECT * FROM `password`.`studentinformation` LIMIT 0,1000");
 		ui.tableView->setModel(model);
@@ -74,4 +103,5 @@ void GuiApplication::connectMysql()
 	{
 		qDebug() << "fail";
 	}
+	/*}*/
 }

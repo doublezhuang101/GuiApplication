@@ -22,6 +22,6 @@ private Q_SLOT:
 private:
 	Ui::GuiApplicationClass ui;
 	StudentMenu *view;
-	QSqlDatabase db;
-	void InitMySql();
+	QSqlDatabase db;//数据库句柄
+	void InitMySql();//初始化数据库
 };
