@@ -18,10 +18,10 @@ public:
 	GuiApplication(QWidget *parent = Q_NULLPTR);
 private Q_SLOT:
 	void condButtonPressed();
-	void connectMysql();
+	//void connectMysql();
 private:
 	Ui::GuiApplicationClass ui;
 	StudentMenu *view;
-	QSqlDatabase db;//数据库句柄
-	void InitMySql();//初始化数据库
+	//QSqlDatabase db;//数据库句柄
+	//void InitMySql();//初始化数据库
 };

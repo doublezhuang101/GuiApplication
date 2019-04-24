@@ -33,13 +33,21 @@ public:
     QLabel *label_8;
     QLabel *label_9;
     QLabel *label_10;
-    QPushButton *pushButton;
+    QPushButton *SearchButton;
     QPushButton *pushButton_2;
     QPushButton *pushButton_3;
     QPushButton *pushButton_4;
     QCheckBox *checkBox;
     QCheckBox *checkBox_2;
     QCheckBox *checkBox_3;
+    QLabel *label_11;
+    QLabel *label_12;
+    QLabel *label_13;
+    QLabel *label_14;
+    QLabel *label_15;
+    QLabel *label_16;
+    QLabel *label_17;
+    QLabel *label_18;
 
     void setupUi(QWidget *DeletePage)
     {
@@ -51,7 +59,7 @@ public:
         label->setGeometry(QRect(170, 50, 171, 20));
         lineEdit = new QLineEdit(DeletePage);
         lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
-        lineEdit->setGeometry(QRect(350, 50, 113, 20));
+        lineEdit->setGeometry(QRect(320, 60, 113, 20));
         label_2 = new QLabel(DeletePage);
         label_2->setObjectName(QString::fromUtf8("label_2"));
         label_2->setGeometry(QRect(50, 130, 131, 31));
@@ -66,7 +74,7 @@ public:
         label_5->setGeometry(QRect(100, 230, 54, 12));
         label_6 = new QLabel(DeletePage);
         label_6->setObjectName(QString::fromUtf8("label_6"));
-        label_6->setGeometry(QRect(100, 340, 81, 16));
+        label_6->setGeometry(QRect(100, 330, 81, 16));
         label_7 = new QLabel(DeletePage);
         label_7->setObjectName(QString::fromUtf8("label_7"));
         label_7->setGeometry(QRect(100, 380, 54, 12));
@@ -85,10 +93,10 @@ public:
         label_9->setGeometry(QRect(360, 210, 81, 21));
         label_10 = new QLabel(DeletePage);
         label_10->setObjectName(QString::fromUtf8("label_10"));
-        label_10->setGeometry(QRect(360, 240, 101, 41));
-        pushButton = new QPushButton(DeletePage);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(470, 80, 75, 23));
+        label_10->setGeometry(QRect(360, 250, 101, 41));
+        SearchButton = new QPushButton(DeletePage);
+        SearchButton->setObjectName(QString::fromUtf8("SearchButton"));
+        SearchButton->setGeometry(QRect(490, 50, 75, 23));
         pushButton_2 = new QPushButton(DeletePage);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
         pushButton_2->setGeometry(QRect(570, 450, 75, 23));
@@ -97,7 +105,7 @@ public:
         pushButton_3->setGeometry(QRect(240, 450, 101, 23));
         pushButton_4 = new QPushButton(DeletePage);
         pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
-        pushButton_4->setGeometry(QRect(380, 450, 75, 23));
+        pushButton_4->setGeometry(QRect(400, 450, 75, 23));
         checkBox = new QCheckBox(DeletePage);
         checkBox->setObjectName(QString::fromUtf8("checkBox"));
         checkBox->setGeometry(QRect(570, 180, 71, 16));
@@ -107,6 +115,30 @@ public:
         checkBox_3 = new QCheckBox(DeletePage);
         checkBox_3->setObjectName(QString::fromUtf8("checkBox_3"));
         checkBox_3->setGeometry(QRect(570, 250, 71, 16));
+        label_11 = new QLabel(DeletePage);
+        label_11->setObjectName(QString::fromUtf8("label_11"));
+        label_11->setGeometry(QRect(190, 170, 91, 31));
+        label_12 = new QLabel(DeletePage);
+        label_12->setObjectName(QString::fromUtf8("label_12"));
+        label_12->setGeometry(QRect(190, 230, 54, 12));
+        label_13 = new QLabel(DeletePage);
+        label_13->setObjectName(QString::fromUtf8("label_13"));
+        label_13->setGeometry(QRect(190, 280, 54, 12));
+        label_14 = new QLabel(DeletePage);
+        label_14->setObjectName(QString::fromUtf8("label_14"));
+        label_14->setGeometry(QRect(190, 330, 54, 12));
+        label_15 = new QLabel(DeletePage);
+        label_15->setObjectName(QString::fromUtf8("label_15"));
+        label_15->setGeometry(QRect(190, 380, 54, 12));
+        label_16 = new QLabel(DeletePage);
+        label_16->setObjectName(QString::fromUtf8("label_16"));
+        label_16->setGeometry(QRect(480, 180, 54, 12));
+        label_17 = new QLabel(DeletePage);
+        label_17->setObjectName(QString::fromUtf8("label_17"));
+        label_17->setGeometry(QRect(480, 220, 54, 12));
+        label_18 = new QLabel(DeletePage);
+        label_18->setObjectName(QString::fromUtf8("label_18"));
+        label_18->setGeometry(QRect(480, 260, 54, 12));
 
         retranslateUi(DeletePage);
 
@@ -126,13 +158,21 @@ public:
         label_8->setText(QApplication::translate("DeletePage", "C\350\257\255\350\250\200\350\257\276\347\250\213\350\256\276\350\256\241\346\210\220\347\273\251", nullptr));
         label_9->setText(QApplication::translate("DeletePage", "\351\253\230\347\255\211\346\225\260\345\255\246\346\210\220\347\273\251", nullptr));
         label_10->setText(QApplication::translate("DeletePage", "\345\244\247\345\255\246\350\213\261\350\257\255\346\210\220\347\273\251", nullptr));
-        pushButton->setText(QApplication::translate("DeletePage", "\346\237\245\346\211\276", nullptr));
+        SearchButton->setText(QApplication::translate("DeletePage", "\346\237\245\346\211\276", nullptr));
         pushButton_2->setText(QApplication::translate("DeletePage", "\351\200\200\345\207\272", nullptr));
         pushButton_3->setText(QApplication::translate("DeletePage", "\345\210\240\351\231\244\351\200\211\344\270\255\351\241\271\347\233\256", nullptr));
         pushButton_4->setText(QApplication::translate("DeletePage", "\345\210\267\346\226\260", nullptr));
         checkBox->setText(QString());
         checkBox_2->setText(QString());
         checkBox_3->setText(QString());
+        label_11->setText(QApplication::translate("DeletePage", "TextLabel", nullptr));
+        label_12->setText(QApplication::translate("DeletePage", "TextLabel", nullptr));
+        label_13->setText(QApplication::translate("DeletePage", "TextLabel", nullptr));
+        label_14->setText(QApplication::translate("DeletePage", "TextLabel", nullptr));
+        label_15->setText(QApplication::translate("DeletePage", "TextLabel", nullptr));
+        label_16->setText(QApplication::translate("DeletePage", "TextLabel", nullptr));
+        label_17->setText(QApplication::translate("DeletePage", "TextLabel", nullptr));
+        label_18->setText(QApplication::translate("DeletePage", "TextLabel", nullptr));
     } // retranslateUi
 
 };

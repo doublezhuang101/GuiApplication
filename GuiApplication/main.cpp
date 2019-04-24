@@ -14,11 +14,3 @@ int main(int argc, char *argv[])
 	//cout << "hello world" << endl;
 	//return 0;
 }
-//
-//int main()
-//{
-//	cout << "hello world" << endl;
-//	qDebug() << "OK";
-//
-//	return 0;
-//}

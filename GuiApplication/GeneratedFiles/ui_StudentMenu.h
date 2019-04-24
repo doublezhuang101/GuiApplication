@@ -38,7 +38,7 @@ public:
         StudentMenu->resize(839, 520);
         label = new QLabel(StudentMenu);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(-10, -10, 871, 541));
+        label->setGeometry(QRect(-20, 0, 871, 541));
         label->setPixmap(QPixmap(QString::fromUtf8("../../QtGuiApplication/QtGuiApplication1/normal background.jpg")));
         label->setScaledContents(true);
         EntryButton = new QPushButton(StudentMenu);

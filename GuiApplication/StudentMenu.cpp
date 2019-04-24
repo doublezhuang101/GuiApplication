@@ -5,6 +5,7 @@ StudentMenu::StudentMenu(QWidget *parent)
 	: QWidget(parent)
 {
 	ui.setupUi(this);
+	ui.Exit->setText("·µ»Ø");
 	connect(ui.Exit, &QPushButton::clicked, this, &StudentMenu::close);
 	connect(ui.DisPlayButton, &QPushButton::clicked, this, &StudentMenu::ShowFormPage);
 	connect(ui.DeleteButton, &QPushButton::clicked, this, &StudentMenu::ShowDeletePage);

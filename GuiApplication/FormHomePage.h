@@ -2,6 +2,7 @@
 
 #include <QWidget>
 #include "ui_FormHomePage.h"
+#include <QtSql>
 
 class FormHomePage : public QWidget
 {
@@ -13,4 +14,5 @@ public:
 
 private:
 	Ui::FormHomePage ui;
+	QSqlDatabase db; 
 };

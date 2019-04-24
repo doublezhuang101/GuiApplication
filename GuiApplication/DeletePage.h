@@ -13,7 +13,9 @@ class DeletePage : public QWidget
 public:
 	DeletePage(QWidget *parent = Q_NULLPTR);
 	~DeletePage();
-
+private Q_SLOT:
+	void DataSearch();
 private:
 	Ui::DeletePage ui;
+	//DeletePage view;
 };
