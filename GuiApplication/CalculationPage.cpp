@@ -6,6 +6,11 @@ CalculationPage::CalculationPage(QWidget *parent)
 	ui.setupUi(this);
 }
 
+void CalculationPage::CalculatingGrades()
+{
+
+}
+
 CalculationPage::~CalculationPage()
 {
 }

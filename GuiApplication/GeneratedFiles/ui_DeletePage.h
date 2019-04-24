@@ -36,7 +36,6 @@ public:
     QPushButton *SearchButton;
     QPushButton *pushButton_2;
     QPushButton *pushButton_3;
-    QPushButton *pushButton_4;
     QCheckBox *checkBox;
     QCheckBox *checkBox_2;
     QCheckBox *checkBox_3;
@@ -80,7 +79,7 @@ public:
         label_7->setGeometry(QRect(100, 380, 54, 12));
         label_8 = new QLabel(DeletePage);
         label_8->setObjectName(QString::fromUtf8("label_8"));
-        label_8->setGeometry(QRect(360, 170, 131, 31));
+        label_8->setGeometry(QRect(360, 170, 121, 31));
         label_8->setMouseTracking(false);
         label_8->setTabletTracking(false);
         label_8->setAcceptDrops(false);
@@ -102,10 +101,7 @@ public:
         pushButton_2->setGeometry(QRect(570, 450, 75, 23));
         pushButton_3 = new QPushButton(DeletePage);
         pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
-        pushButton_3->setGeometry(QRect(240, 450, 101, 23));
-        pushButton_4 = new QPushButton(DeletePage);
-        pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
-        pushButton_4->setGeometry(QRect(400, 450, 75, 23));
+        pushButton_3->setGeometry(QRect(360, 460, 101, 23));
         checkBox = new QCheckBox(DeletePage);
         checkBox->setObjectName(QString::fromUtf8("checkBox"));
         checkBox->setGeometry(QRect(570, 180, 71, 16));
@@ -139,6 +135,12 @@ public:
         label_18 = new QLabel(DeletePage);
         label_18->setObjectName(QString::fromUtf8("label_18"));
         label_18->setGeometry(QRect(480, 260, 54, 12));
+        QWidget::setTabOrder(lineEdit, SearchButton);
+        QWidget::setTabOrder(SearchButton, checkBox);
+        QWidget::setTabOrder(checkBox, checkBox_2);
+        QWidget::setTabOrder(checkBox_2, checkBox_3);
+        QWidget::setTabOrder(checkBox_3, pushButton_3);
+        QWidget::setTabOrder(pushButton_3, pushButton_2);
 
         retranslateUi(DeletePage);
 
@@ -159,9 +161,8 @@ public:
         label_9->setText(QApplication::translate("DeletePage", "\351\253\230\347\255\211\346\225\260\345\255\246\346\210\220\347\273\251", nullptr));
         label_10->setText(QApplication::translate("DeletePage", "\345\244\247\345\255\246\350\213\261\350\257\255\346\210\220\347\273\251", nullptr));
         SearchButton->setText(QApplication::translate("DeletePage", "\346\237\245\346\211\276", nullptr));
-        pushButton_2->setText(QApplication::translate("DeletePage", "\351\200\200\345\207\272", nullptr));
+        pushButton_2->setText(QString());
         pushButton_3->setText(QApplication::translate("DeletePage", "\345\210\240\351\231\244\351\200\211\344\270\255\351\241\271\347\233\256", nullptr));
-        pushButton_4->setText(QApplication::translate("DeletePage", "\345\210\267\346\226\260", nullptr));
         checkBox->setText(QString());
         checkBox_2->setText(QString());
         checkBox_3->setText(QString());

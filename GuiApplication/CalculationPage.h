@@ -10,7 +10,7 @@ class CalculationPage : public QWidget
 public:
 	CalculationPage(QWidget *parent = Q_NULLPTR);
 	~CalculationPage();
-
+	void CalculatingGrades();
 private:
 	Ui::CalculationPage ui;
 };

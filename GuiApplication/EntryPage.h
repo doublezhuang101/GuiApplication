@@ -10,7 +10,8 @@ class EntryPage : public QWidget
 public:
 	EntryPage(QWidget *parent = Q_NULLPTR);
 	~EntryPage();
-
+private	Q_SLOT:
+	void ConfirmEntry();
 private:
 	Ui::EntryPage ui;
 };

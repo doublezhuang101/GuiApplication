@@ -23,6 +23,7 @@ class Ui_FormHomePage
 public:
     QTableView *tableView;
     QPushButton *pushButton;
+    QPushButton *pushButton_2;
 
     void setupUi(QWidget *FormHomePage)
     {
@@ -35,6 +36,9 @@ public:
         pushButton = new QPushButton(FormHomePage);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
         pushButton->setGeometry(QRect(780, 420, 75, 23));
+        pushButton_2 = new QPushButton(FormHomePage);
+        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
+        pushButton_2->setGeometry(QRect(630, 420, 75, 23));
 
         retranslateUi(FormHomePage);
 
@@ -45,6 +49,7 @@ public:
     {
         FormHomePage->setWindowTitle(QApplication::translate("FormHomePage", "FormHomePage", nullptr));
         pushButton->setText(QApplication::translate("FormHomePage", "PushButton", nullptr));
+        pushButton_2->setText(QApplication::translate("FormHomePage", "PushButton", nullptr));
     } // retranslateUi
 
 };
