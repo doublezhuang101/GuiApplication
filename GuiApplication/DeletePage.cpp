@@ -48,7 +48,6 @@ void DeletePage::DataSearch()
 	int flag = 0;
 	if (num.length())
 	{
-		/*QString num = ui.lineEdit->text();*/
 		QString temp_qt = "select *from `password`.`studentinformation`WHERE studentinformation.`学号`=" + num;
 		QSqlQuery query1(temp_qt);
 		ui.label_11->setText("no data");
@@ -73,16 +72,14 @@ void DeletePage::DataSearch()
 			ui.label_18->setText(query1.value(5).toString());
 			flag = 1;
 		}
+		if (flag == 0)
+		{
+			QMessageBox::warning(this, tr("Warning！"), tr("	不存在该信息！	"));
+		}
 	}
-
 	else
 	{
 		QMessageBox::warning(this, tr("Warning！"), tr("	学号不能为空！"));
-	}
-
-	if (flag == 0)
-	{
-		QMessageBox::warning(this, tr("Warning！"), tr("	不存在该信息！	"));
 	}
 }
 

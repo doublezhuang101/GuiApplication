@@ -26,9 +26,9 @@
   <widget class="QPushButton" name="CstudyButton">
    <property name="geometry">
     <rect>
-     <x>320</x>
+     <x>230</x>
      <y>450</y>
-     <width>75</width>
+     <width>121</width>
      <height>23</height>
     </rect>
    </property>
@@ -39,9 +39,9 @@
   <widget class="QPushButton" name="MathButton">
    <property name="geometry">
     <rect>
-     <x>430</x>
+     <x>380</x>
      <y>450</y>
-     <width>75</width>
+     <width>121</width>
      <height>23</height>
     </rect>
    </property>
@@ -52,9 +52,9 @@
   <widget class="QPushButton" name="EnglishButton">
    <property name="geometry">
     <rect>
-     <x>530</x>
+     <x>520</x>
      <y>450</y>
-     <width>75</width>
+     <width>121</width>
      <height>23</height>
     </rect>
    </property>
@@ -65,11 +65,14 @@
   <widget class="QPushButton" name="EXIT">
    <property name="geometry">
     <rect>
-     <x>640</x>
+     <x>670</x>
      <y>450</y>
-     <width>75</width>
+     <width>101</width>
      <height>23</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 15pt &quot;华文楷体&quot;;</string>
    </property>
    <property name="text">
     <string>PushButton</string>

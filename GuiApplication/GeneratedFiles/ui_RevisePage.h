@@ -34,8 +34,15 @@ public:
     QLabel *label_9;
     QLabel *label_6;
     QPushButton *pushButton_2;
-    QPushButton *pushButton_3;
     QPushButton *pushButton_4;
+    QLineEdit *lineEdit_2;
+    QLineEdit *lineEdit_3;
+    QLineEdit *lineEdit_4;
+    QLineEdit *lineEdit_5;
+    QLineEdit *lineEdit_6;
+    QLineEdit *lineEdit_7;
+    QLineEdit *lineEdit_8;
+    QLineEdit *lineEdit_9;
 
     void setupUi(QWidget *RevisePage)
     {
@@ -87,13 +94,34 @@ public:
         label_6->setGeometry(QRect(130, 330, 81, 16));
         pushButton_2 = new QPushButton(RevisePage);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-        pushButton_2->setGeometry(QRect(190, 450, 111, 21));
-        pushButton_3 = new QPushButton(RevisePage);
-        pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
-        pushButton_3->setGeometry(QRect(340, 450, 75, 23));
+        pushButton_2->setGeometry(QRect(340, 450, 111, 21));
         pushButton_4 = new QPushButton(RevisePage);
         pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
         pushButton_4->setGeometry(QRect(530, 450, 75, 23));
+        lineEdit_2 = new QLineEdit(RevisePage);
+        lineEdit_2->setObjectName(QString::fromUtf8("lineEdit_2"));
+        lineEdit_2->setGeometry(QRect(190, 180, 113, 20));
+        lineEdit_3 = new QLineEdit(RevisePage);
+        lineEdit_3->setObjectName(QString::fromUtf8("lineEdit_3"));
+        lineEdit_3->setGeometry(QRect(190, 230, 113, 20));
+        lineEdit_4 = new QLineEdit(RevisePage);
+        lineEdit_4->setObjectName(QString::fromUtf8("lineEdit_4"));
+        lineEdit_4->setGeometry(QRect(190, 280, 113, 20));
+        lineEdit_5 = new QLineEdit(RevisePage);
+        lineEdit_5->setObjectName(QString::fromUtf8("lineEdit_5"));
+        lineEdit_5->setGeometry(QRect(190, 330, 113, 20));
+        lineEdit_6 = new QLineEdit(RevisePage);
+        lineEdit_6->setObjectName(QString::fromUtf8("lineEdit_6"));
+        lineEdit_6->setGeometry(QRect(190, 380, 113, 20));
+        lineEdit_7 = new QLineEdit(RevisePage);
+        lineEdit_7->setObjectName(QString::fromUtf8("lineEdit_7"));
+        lineEdit_7->setGeometry(QRect(490, 180, 113, 20));
+        lineEdit_8 = new QLineEdit(RevisePage);
+        lineEdit_8->setObjectName(QString::fromUtf8("lineEdit_8"));
+        lineEdit_8->setGeometry(QRect(490, 220, 113, 20));
+        lineEdit_9 = new QLineEdit(RevisePage);
+        lineEdit_9->setObjectName(QString::fromUtf8("lineEdit_9"));
+        lineEdit_9->setGeometry(QRect(490, 250, 113, 20));
 
         retranslateUi(RevisePage);
 
@@ -114,9 +142,8 @@ public:
         label_4->setText(QApplication::translate("RevisePage", "\346\200\247\345\210\253", nullptr));
         label_9->setText(QApplication::translate("RevisePage", "\351\253\230\347\255\211\346\225\260\345\255\246\346\210\220\347\273\251", nullptr));
         label_6->setText(QApplication::translate("RevisePage", "\345\207\272\347\224\237\346\227\245\346\234\237", nullptr));
-        pushButton_2->setText(QApplication::translate("RevisePage", "\344\277\256\346\224\271\351\200\211\344\270\255\351\241\271\347\233\256", nullptr));
-        pushButton_3->setText(QApplication::translate("RevisePage", "\345\210\267\346\226\260", nullptr));
-        pushButton_4->setText(QApplication::translate("RevisePage", "\351\200\200\345\207\272", nullptr));
+        pushButton_2->setText(QApplication::translate("RevisePage", "\344\277\256\346\224\271\346\224\271\345\212\250\351\241\271\347\233\256", nullptr));
+        pushButton_4->setText(QApplication::translate("RevisePage", "\350\277\224\345\233\236\344\270\212\344\270\200\347\272\247", nullptr));
     } // retranslateUi
 
 };

@@ -10,7 +10,8 @@ class SearchPage : public QWidget
 public:
 	SearchPage(QWidget *parent = Q_NULLPTR);
 	~SearchPage();
-
+private Q_SLOT:
+	void DataSearch();
 private:
 	Ui::SearchPage ui;
 };
