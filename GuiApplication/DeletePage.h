@@ -17,5 +17,4 @@ private Q_SLOT:
 	void DataSearch();
 private:
 	Ui::DeletePage ui;
-	//DeletePage view;
 };

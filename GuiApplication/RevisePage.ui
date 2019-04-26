@@ -36,7 +36,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>TextLabel</string>
+    <string>请输入学号进行查询：</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_8">
