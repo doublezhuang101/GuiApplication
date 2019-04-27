@@ -4,6 +4,9 @@
 #include <string>
 #include <QSqlQuery>
 #include "FormHomePage.h"
+#if _MSC_VER >= 1600
+#pragma execution_character_set("utf-8")
+#endif
 using namespace std;
 
 DeletePage::DeletePage(QWidget *parent)
@@ -23,6 +26,8 @@ DeletePage::DeletePage(QWidget *parent)
 	ui.label_18->setText("");
 	connect(ui.pushButton_2, &QPushButton::clicked, this, &DeletePage::close);
 	connect(ui.SearchButton, &QPushButton::clicked, this, &DeletePage::DataSearch);
+	connect(ui.deleteButton, &QPushButton::clicked, this, &DeletePage::DataDelete);
+	connect(ui.pushButton, &QPushButton::clicked, this, &DeletePage::DeletePeople);
 }
 
 void DeletePage::DataSearch()
@@ -30,11 +35,11 @@ void DeletePage::DataSearch()
 	qDebug() << "OK";
 	QString num = ui.lineEdit->text();
 	QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
-	db.setHostName("localhost");
-	db.setPort(3306);
+	db.setHostName("localhost");//主机名
+	db.setPort(3306);//端口号
 	db.setDatabaseName("mysql");
 	db.setUserName("root");
-	db.setPassword("kuandong1227");     //设置数据库连接账号的密码
+	db.setPassword("kuandong1227");//设置数据库连接账号的密码
 	bool ok = db.open();
 	if (ok)
 	{
@@ -81,6 +86,52 @@ void DeletePage::DataSearch()
 	{
 		QMessageBox::warning(this, tr("Warning！"), tr("	学号不能为空！"));
 	}
+}
+
+void DeletePage::DataDelete()
+{
+	QString temp_qt = "UPDATE `password`.`studentinformation` SET";
+	int flag = 0;
+	if (ui.checkBox->isChecked() == true)
+	{
+		if (flag == 0)
+		{
+			temp_qt = temp_qt + "`C语言程序设计成绩` = ''";
+			flag = 1;
+		}
+	}
+	if(ui.checkBox_2->isChecked() == true)
+	{
+		if (flag == 0)
+		{
+			temp_qt = temp_qt + "`高等数学成绩` = ''";
+			flag = 1;
+		}
+		else
+		{
+			temp_qt = temp_qt + ",`高等数学成绩` = ''";
+		}
+	}
+	if (ui.checkBox_3->isChecked() == true)
+	{
+		if (flag == 0)
+		{
+			temp_qt = temp_qt + "`大学英语成绩` = ''";
+			flag = 1;
+		}
+		else
+		{
+			temp_qt = temp_qt + ",`大学英语成绩` = ''";
+		}
+	}
+	temp_qt = temp_qt + " WHERE `学号` = " + ui.label_11->text();
+	QSqlQuery query1(temp_qt);
+}
+
+void DeletePage::DeletePeople()
+{
+	QString temp_qt = "DELETE FROM `password`.`studentinformation` WHERE `学号` =  "+ ui.label_11->text();
+	QSqlQuery query1(temp_qt);
 }
 
 DeletePage::~DeletePage()

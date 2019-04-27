@@ -81,9 +81,7 @@ void SearchPage::DataSearch()
 	else
 	{
 		QMessageBox::warning(this, tr("Warning！"), tr("	学号不能为空！"));
-	}
-
-	
+	}	
 }
 
 SearchPage::~SearchPage()

@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>803</width>
+    <width>893</width>
     <height>516</height>
    </rect>
   </property>
@@ -16,9 +16,9 @@
   <widget class="QTableView" name="tableView">
    <property name="geometry">
     <rect>
-     <x>30</x>
+     <x>20</x>
      <y>30</y>
-     <width>751</width>
+     <width>851</width>
      <height>371</height>
     </rect>
    </property>
@@ -26,8 +26,8 @@
   <widget class="QPushButton" name="CstudyButton">
    <property name="geometry">
     <rect>
-     <x>230</x>
-     <y>450</y>
+     <x>200</x>
+     <y>430</y>
      <width>121</width>
      <height>23</height>
     </rect>
@@ -39,8 +39,8 @@
   <widget class="QPushButton" name="MathButton">
    <property name="geometry">
     <rect>
-     <x>380</x>
-     <y>450</y>
+     <x>350</x>
+     <y>430</y>
      <width>121</width>
      <height>23</height>
     </rect>
@@ -52,8 +52,8 @@
   <widget class="QPushButton" name="EnglishButton">
    <property name="geometry">
     <rect>
-     <x>520</x>
-     <y>450</y>
+     <x>490</x>
+     <y>430</y>
      <width>121</width>
      <height>23</height>
     </rect>
@@ -65,14 +65,79 @@
   <widget class="QPushButton" name="EXIT">
    <property name="geometry">
     <rect>
-     <x>670</x>
+     <x>650</x>
      <y>450</y>
-     <width>101</width>
-     <height>23</height>
+     <width>121</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">font: 15pt &quot;华文楷体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>470</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>降序排序</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>440</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>升序排序</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>470</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>470</y>
+     <width>121</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>470</y>
+     <width>121</width>
+     <height>23</height>
+    </rect>
    </property>
    <property name="text">
     <string>PushButton</string>

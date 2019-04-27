@@ -12,6 +12,7 @@ public:
 	~RevisePage();
 private Q_SLOT:
 	void DateSearch();
+	void DataRevise();
 private:
 	Ui::RevisePage ui;
 };

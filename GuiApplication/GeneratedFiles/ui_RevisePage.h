@@ -132,7 +132,7 @@ public:
     {
         RevisePage->setWindowTitle(QApplication::translate("RevisePage", "RevisePage", nullptr));
         label_7->setText(QApplication::translate("RevisePage", "\345\271\264\351\276\204", nullptr));
-        label->setText(QApplication::translate("RevisePage", "TextLabel", nullptr));
+        label->setText(QApplication::translate("RevisePage", "\350\257\267\350\276\223\345\205\245\345\255\246\345\217\267\350\277\233\350\241\214\346\237\245\350\257\242\357\274\232", nullptr));
         label_8->setText(QApplication::translate("RevisePage", "C\350\257\255\350\250\200\350\257\276\347\250\213\350\256\276\350\256\241\346\210\220\347\273\251", nullptr));
         label_5->setText(QApplication::translate("RevisePage", "\345\247\223\345\220\215", nullptr));
         pushButton->setText(QApplication::translate("RevisePage", "\346\237\245\346\211\276", nullptr));

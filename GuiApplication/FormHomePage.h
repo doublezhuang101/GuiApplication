@@ -12,6 +12,9 @@ public:
 	FormHomePage(QWidget *parent = Q_NULLPTR);
 	~FormHomePage();
 
+private Q_SLOT:
+	void ConnectMysql();
+	QSqlDatabase InitMySql();
 private:
 	Ui::FormHomePage ui;
 	QSqlDatabase db; 

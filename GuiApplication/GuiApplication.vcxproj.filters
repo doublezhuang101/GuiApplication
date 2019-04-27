@@ -45,9 +45,6 @@
     <ClCompile Include="DeletePage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CourseDesign.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="RevisePage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -128,9 +125,6 @@
     </QtRcc>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CourseDesign.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Student.h">
       <Filter>Header Files</Filter>
     </ClInclude>

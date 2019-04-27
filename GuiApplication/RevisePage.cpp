@@ -11,7 +11,9 @@ RevisePage::RevisePage(QWidget *parent)
 	: QWidget(parent)
 {
 	ui.setupUi(this);
+	connect(ui.pushButton_4, &QPushButton::clicked, this, &RevisePage::close);
 	connect(ui.pushButton, &QPushButton::clicked, this, &RevisePage::DateSearch);
+	connect(ui.pushButton_2, &QPushButton::clicked, this, &RevisePage::DataRevise);
 }
 
 void RevisePage::DateSearch()
@@ -40,8 +42,8 @@ void RevisePage::DateSearch()
 	else
 	{
 		qDebug() << "False";
-	}
-	//以上为初始化数据连接
+	}//确认数据库连接情况
+	
 	int flag = 0;
 	if (num.length())
 	{
@@ -77,6 +79,29 @@ void RevisePage::DateSearch()
 	{
 		QMessageBox::warning(this, tr("Warning！"), tr("	学号不能为空！"));
 	}
+}
+
+void RevisePage::DataRevise()
+{
+	QString num = ui.lineEdit->text();
+	QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
+	db.setHostName("localhost");//主机名
+	db.setPort(3306);//端口号
+	db.setDatabaseName("mysql");
+	db.setUserName("root");
+	db.setPassword("kuandong1227");//设置数据库连接账号的密码
+	db.open();
+	QString temp_qt = "UPDATE `password`.`studentinformation` SET `学号` = '"
+		+ ui.lineEdit_2->text() + "'" + ",`姓名` = "
+		+ "'" + ui.lineEdit_3->text() + "'" + ",`性别` = "
+		+ "'" + ui.lineEdit_4->text() + "'" + ",`C语言程序设计成绩` = "
+		+ "'" + ui.lineEdit_2->text() + "'" + ",`高等数学成绩` = "
+		+ "'" + ui.lineEdit_2->text() + "'" + ",`大学英语成绩` = "
+		+ "'" + ui.lineEdit_9->text() + "'" + ",`出生年月` = "
+		+ "'" + ui.lineEdit_5->text() + "'" + ",`年龄` = "
+		+ "'" + ui.lineEdit_6->text();
+	temp_qt=temp_qt + "' WHERE `学号` = " + ui.lineEdit->text();
+	QSqlQuery query1(temp_qt);
 }
 
 RevisePage::~RevisePage()

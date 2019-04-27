@@ -117,7 +117,7 @@
   <widget class="QLabel" name="label_8">
    <property name="geometry">
     <rect>
-     <x>360</x>
+     <x>350</x>
      <y>170</y>
      <width>121</width>
      <height>31</height>
@@ -200,11 +200,11 @@
     <string/>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_3">
+  <widget class="QPushButton" name="deleteButton">
    <property name="geometry">
     <rect>
-     <x>360</x>
-     <y>460</y>
+     <x>370</x>
+     <y>450</y>
      <width>101</width>
      <height>23</height>
     </rect>
@@ -356,6 +356,19 @@
     <string>TextLabel</string>
    </property>
   </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>450</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <tabstops>
@@ -364,7 +377,7 @@
   <tabstop>checkBox</tabstop>
   <tabstop>checkBox_2</tabstop>
   <tabstop>checkBox_3</tabstop>
-  <tabstop>pushButton_3</tabstop>
+  <tabstop>deleteButton</tabstop>
   <tabstop>pushButton_2</tabstop>
  </tabstops>
  <resources/>

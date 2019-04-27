@@ -10,7 +10,13 @@ class RankPage : public QWidget
 public:
 	RankPage(QWidget *parent = Q_NULLPTR);
 	~RankPage();
-
+private Q_SLOT:
+	void RankDesign();
+	void RankMath();
+	void RankEnglish();
+	void RankDesignDown();
+	void RankMathDown();
+	void RankEnglishDown();
 private:
 	Ui::RankPage ui;
 };

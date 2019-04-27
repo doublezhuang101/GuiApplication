@@ -15,6 +15,8 @@ public:
 	~DeletePage();
 private Q_SLOT:
 	void DataSearch();
+	void DataDelete();
+	void DeletePeople();
 private:
 	Ui::DeletePage ui;
 };
