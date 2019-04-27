@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>680</width>
-    <height>455</height>
+    <width>926</width>
+    <height>595</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,11 +16,15 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>160</x>
-     <y>40</y>
-     <width>171</width>
-     <height>20</height>
+     <x>180</x>
+     <y>70</y>
+     <width>251</width>
+     <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Adobe Devanagari&quot;;
+font: 13pt &quot;楷体&quot;;</string>
    </property>
    <property name="text">
     <string>TextLabel</string>
@@ -29,11 +33,15 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>120</y>
-     <width>131</width>
-     <height>31</height>
+     <x>160</x>
+     <y>140</y>
+     <width>181</width>
+     <height>51</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Adobe Devanagari&quot;;
+font: 13pt &quot;楷体&quot;;</string>
    </property>
    <property name="text">
     <string>以下是你查询到结果：</string>
@@ -42,11 +50,15 @@
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>490</x>
-     <y>40</y>
-     <width>75</width>
-     <height>23</height>
+     <x>630</x>
+     <y>80</y>
+     <width>91</width>
+     <height>31</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Adobe Devanagari&quot;;
+font: 13pt &quot;楷体&quot;;</string>
    </property>
    <property name="text">
     <string>查找</string>
@@ -55,21 +67,29 @@
   <widget class="QLineEdit" name="lineEdit">
    <property name="geometry">
     <rect>
-     <x>340</x>
-     <y>40</y>
-     <width>113</width>
-     <height>20</height>
+     <x>460</x>
+     <y>80</y>
+     <width>151</width>
+     <height>31</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Adobe Devanagari&quot;;
+font: 13pt &quot;楷体&quot;;</string>
    </property>
   </widget>
   <widget class="QPushButton" name="Exit">
    <property name="geometry">
     <rect>
-     <x>530</x>
-     <y>400</y>
-     <width>75</width>
-     <height>23</height>
+     <x>720</x>
+     <y>520</y>
+     <width>151</width>
+     <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Adobe Devanagari&quot;;
+font: 13pt &quot;楷体&quot;;</string>
    </property>
    <property name="text">
     <string>返回上一级</string>
@@ -78,11 +98,15 @@
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>220</y>
-     <width>54</width>
-     <height>12</height>
+     <x>160</x>
+     <y>280</y>
+     <width>111</width>
+     <height>31</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Adobe Devanagari&quot;;
+font: 13pt &quot;楷体&quot;;</string>
    </property>
    <property name="text">
     <string>姓名</string>
@@ -91,11 +115,15 @@
   <widget class="QLabel" name="label_18">
    <property name="geometry">
     <rect>
-     <x>470</x>
-     <y>250</y>
-     <width>54</width>
-     <height>12</height>
+     <x>650</x>
+     <y>330</y>
+     <width>101</width>
+     <height>51</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Adobe Devanagari&quot;;
+font: 13pt &quot;楷体&quot;;</string>
    </property>
    <property name="text">
     <string>TextLabel</string>
@@ -104,11 +132,15 @@
   <widget class="QLabel" name="label_10">
    <property name="geometry">
     <rect>
-     <x>350</x>
-     <y>240</y>
-     <width>101</width>
+     <x>480</x>
+     <y>340</y>
+     <width>121</width>
      <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Adobe Devanagari&quot;;
+font: 13pt &quot;楷体&quot;;</string>
    </property>
    <property name="text">
     <string>大学英语成绩</string>
@@ -117,11 +149,15 @@
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>270</y>
-     <width>54</width>
-     <height>12</height>
+     <x>160</x>
+     <y>330</y>
+     <width>111</width>
+     <height>51</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Adobe Devanagari&quot;;
+font: 13pt &quot;楷体&quot;;</string>
    </property>
    <property name="text">
     <string>性别</string>
@@ -130,11 +166,15 @@
   <widget class="QLabel" name="label_12">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>220</y>
-     <width>54</width>
-     <height>12</height>
+     <x>290</x>
+     <y>280</y>
+     <width>81</width>
+     <height>31</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Adobe Devanagari&quot;;
+font: 13pt &quot;楷体&quot;;</string>
    </property>
    <property name="text">
     <string>TextLabel</string>
@@ -143,11 +183,15 @@
   <widget class="QLabel" name="label_13">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>270</y>
-     <width>54</width>
-     <height>12</height>
+     <x>290</x>
+     <y>340</y>
+     <width>81</width>
+     <height>31</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Adobe Devanagari&quot;;
+font: 13pt &quot;楷体&quot;;</string>
    </property>
    <property name="text">
     <string>TextLabel</string>
@@ -156,11 +200,15 @@
   <widget class="QLabel" name="label_9">
    <property name="geometry">
     <rect>
-     <x>350</x>
-     <y>200</y>
-     <width>81</width>
-     <height>21</height>
+     <x>480</x>
+     <y>270</y>
+     <width>121</width>
+     <height>51</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Adobe Devanagari&quot;;
+font: 13pt &quot;楷体&quot;;</string>
    </property>
    <property name="text">
     <string>高等数学成绩</string>
@@ -169,11 +217,15 @@
   <widget class="QLabel" name="label_16">
    <property name="geometry">
     <rect>
-     <x>470</x>
-     <y>170</y>
-     <width>54</width>
-     <height>12</height>
+     <x>650</x>
+     <y>220</y>
+     <width>101</width>
+     <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Adobe Devanagari&quot;;
+font: 13pt &quot;楷体&quot;;</string>
    </property>
    <property name="text">
     <string>TextLabel</string>
@@ -182,11 +234,15 @@
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>370</y>
-     <width>54</width>
-     <height>12</height>
+     <x>160</x>
+     <y>460</y>
+     <width>111</width>
+     <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Adobe Devanagari&quot;;
+font: 13pt &quot;楷体&quot;;</string>
    </property>
    <property name="text">
     <string>年龄</string>
@@ -195,11 +251,15 @@
   <widget class="QLabel" name="label_11">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>160</y>
+     <x>290</x>
+     <y>220</y>
      <width>91</width>
      <height>31</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Adobe Devanagari&quot;;
+font: 13pt &quot;楷体&quot;;</string>
    </property>
    <property name="text">
     <string>TextLabel</string>
@@ -208,11 +268,15 @@
   <widget class="QLabel" name="label_6">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>320</y>
-     <width>81</width>
-     <height>16</height>
+     <x>160</x>
+     <y>390</y>
+     <width>111</width>
+     <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Adobe Devanagari&quot;;
+font: 13pt &quot;楷体&quot;;</string>
    </property>
    <property name="text">
     <string>出生日期</string>
@@ -221,11 +285,15 @@
   <widget class="QLabel" name="label_14">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>320</y>
-     <width>54</width>
-     <height>12</height>
+     <x>290</x>
+     <y>400</y>
+     <width>91</width>
+     <height>31</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Adobe Devanagari&quot;;
+font: 13pt &quot;楷体&quot;;</string>
    </property>
    <property name="text">
     <string>TextLabel</string>
@@ -234,11 +302,15 @@
   <widget class="QLabel" name="label_15">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>370</y>
-     <width>54</width>
-     <height>12</height>
+     <x>290</x>
+     <y>461</y>
+     <width>71</width>
+     <height>31</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Adobe Devanagari&quot;;
+font: 13pt &quot;楷体&quot;;</string>
    </property>
    <property name="text">
     <string>TextLabel</string>
@@ -247,11 +319,15 @@
   <widget class="QLabel" name="label_17">
    <property name="geometry">
     <rect>
-     <x>470</x>
-     <y>210</y>
-     <width>54</width>
-     <height>12</height>
+     <x>650</x>
+     <y>270</y>
+     <width>81</width>
+     <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Adobe Devanagari&quot;;
+font: 13pt &quot;楷体&quot;;</string>
    </property>
    <property name="text">
     <string>TextLabel</string>
@@ -260,11 +336,15 @@
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>170</y>
-     <width>54</width>
-     <height>12</height>
+     <x>163</x>
+     <y>210</y>
+     <width>101</width>
+     <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Adobe Devanagari&quot;;
+font: 13pt &quot;楷体&quot;;</string>
    </property>
    <property name="text">
     <string>学号</string>
@@ -273,9 +353,9 @@
   <widget class="QLabel" name="label_8">
    <property name="geometry">
     <rect>
-     <x>350</x>
-     <y>160</y>
-     <width>121</width>
+     <x>480</x>
+     <y>220</y>
+     <width>161</width>
      <height>31</height>
     </rect>
    </property>
@@ -291,6 +371,10 @@
    <property name="autoFillBackground">
     <bool>false</bool>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Adobe Devanagari&quot;;
+font: 13pt &quot;楷体&quot;;</string>
+   </property>
    <property name="text">
     <string>C语言课程设计成绩</string>
    </property>
@@ -304,6 +388,48 @@
     <bool>false</bool>
    </property>
   </widget>
+  <widget class="QLabel" name="label_19">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-10</y>
+     <width>951</width>
+     <height>621</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string>font: 12pt &quot;Adobe Devanagari&quot;;
+font: 13pt &quot;楷体&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>background.jpg</pixmap>
+   </property>
+  </widget>
+  <zorder>label_19</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>lineEdit</zorder>
+  <zorder>Exit</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_18</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_12</zorder>
+  <zorder>label_13</zorder>
+  <zorder>label_9</zorder>
+  <zorder>label_16</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_11</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_14</zorder>
+  <zorder>label_15</zorder>
+  <zorder>label_17</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_8</zorder>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>

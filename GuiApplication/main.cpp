@@ -9,7 +9,13 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
+	
 	QApplication a(argc, argv);
+
+	QString strPath = QApplication::applicationDirPath();
+	strPath = strPath + "tobiichi_origami.png";
+	a.setWindowIcon(QIcon(strPath));
+
 	GuiApplication w;
 	w.show();
 	return a.exec();

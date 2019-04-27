@@ -34,27 +34,45 @@ public:
     {
         if (GuiApplicationClass->objectName().isEmpty())
             GuiApplicationClass->setObjectName(QString::fromUtf8("GuiApplicationClass"));
-        GuiApplicationClass->resize(906, 534);
+        GuiApplicationClass->resize(910, 581);
         centralWidget = new QWidget(GuiApplicationClass);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         startButton = new QPushButton(centralWidget);
         startButton->setObjectName(QString::fromUtf8("startButton"));
-        startButton->setGeometry(QRect(450, 410, 101, 31));
+        startButton->setGeometry(QRect(460, 450, 121, 31));
+        startButton->setStyleSheet(QString::fromUtf8("font: 13pt \"\346\245\267\344\275\223\";\n"
+"background-color:white;\n"
+"color: black;   \n"
+"border-radius: 12px;  \n"
+"border: 2px groove gray;\n"
+"border-style: outset;\n"
+"hover{background-color:blue; color: black;}\n"
+"background-color:rgb(85, 170, 255);\n"
+"border-style: inset;"));
         label = new QLabel(centralWidget);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(0, -10, 921, 511));
+        label->setGeometry(QRect(-20, -10, 941, 561));
         label->setPixmap(QPixmap(QString::fromUtf8(":/GuiApplication/MFC ODBC.png")));
         label->setScaledContents(true);
         closeButton = new QPushButton(centralWidget);
         closeButton->setObjectName(QString::fromUtf8("closeButton"));
-        closeButton->setGeometry(QRect(630, 410, 31, 31));
+        closeButton->setGeometry(QRect(620, 450, 81, 31));
+        closeButton->setStyleSheet(QString::fromUtf8("font: 13pt \"\346\245\267\344\275\223\";\n"
+"background-color:white;\n"
+"color: black;   \n"
+"border-radius: 12px;  \n"
+"border: 2px groove gray;\n"
+"border-style: outset;\n"
+"hover{background-color:blue; color: black;}\n"
+"background-color:rgb(85, 170, 255);\n"
+"border-style: inset;"));
         GuiApplicationClass->setCentralWidget(centralWidget);
         label->raise();
         startButton->raise();
         closeButton->raise();
         menuBar = new QMenuBar(GuiApplicationClass);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 906, 23));
+        menuBar->setGeometry(QRect(0, 0, 910, 23));
         GuiApplicationClass->setMenuBar(menuBar);
         mainToolBar = new QToolBar(GuiApplicationClass);
         mainToolBar->setObjectName(QString::fromUtf8("mainToolBar"));
@@ -70,7 +88,7 @@ public:
         GuiApplicationClass->setWindowTitle(QApplication::translate("GuiApplicationClass", "GuiApplication", nullptr));
         startButton->setText(QApplication::translate("GuiApplicationClass", "Enter|\350\277\233\345\205\245", nullptr));
         label->setText(QString());
-        closeButton->setText(QApplication::translate("GuiApplicationClass", "X", nullptr));
+        closeButton->setText(QApplication::translate("GuiApplicationClass", "\351\200\200\345\207\272\347\263\273\347\273\237", nullptr));
     } // retranslateUi
 
 };

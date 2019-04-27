@@ -27,11 +27,11 @@ public Q_SLOT:
 	void ShowCalculationPage();
 private:
 	Ui::StudentMenu ui;
-	FormHomePage view;
-	DeletePage view2;
-	RevisePage view3;
-	CalculationPage view4;
-	SearchPage view5;
-	RankPage view6;
-	EntryPage view7;
+	FormHomePage *view;
+	DeletePage *view2;
+	RevisePage *view3;
+	CalculationPage *view4;
+	SearchPage *view5;
+	RankPage *view6;
+	EntryPage *view7;
 };

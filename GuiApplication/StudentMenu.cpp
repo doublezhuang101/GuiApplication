@@ -1,5 +1,11 @@
 #include "StudentMenu.h"
-
+#include "RankPage.h"
+#include "DeletePage.h"
+#include "CalculationPage.h"
+#include "EntryPage.h"
+#include "FormHomePage.h"
+#include "RevisePage.h"
+#include "SearchPage.h"
 
 StudentMenu::StudentMenu(QWidget *parent)
 	: QWidget(parent)
@@ -18,38 +24,45 @@ StudentMenu::StudentMenu(QWidget *parent)
 
 void StudentMenu::ShowFormPage()
 {
-	/*view = new StudentMenu();*/
-	view.show();//不用指针的显示新页面
+	view = new FormHomePage(this);
+	view->show();
+	//view.show();//不用指针的显示新页面
 }
 
 void StudentMenu::ShowDeletePage()
 {
-	view2.show();
+	view2 = new DeletePage(this);
+	view2->show();
 }
 
 void StudentMenu::ShowRevisePage()
 {
-	view3.show();
+	view3 = new RevisePage(this);
+	view3->show();
 }
 
 void StudentMenu::ShowCalculationPage()
 {
-	view4.show();
+	view4 = new CalculationPage(this);
+	view4->show();
 }
 
 void StudentMenu::ShowSearchPage()
 {
-	view5.show();
+	view5 = new SearchPage(this);
+	view5->show();
 }
 
 void StudentMenu::ShowRankPage()
 {
-	view6.show();
+	view6 = new RankPage(this);
+	view6->show();
 }
 
 void StudentMenu::ShowEntryPage()
 {
-	view7.show();
+	view7 = new EntryPage(this);
+	view7->show();
 }
 
 StudentMenu::~StudentMenu()

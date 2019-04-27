@@ -25,7 +25,7 @@ GuiApplication::GuiApplication(QWidget *parent)
 void GuiApplication::condButtonPressed()
 {
 	qDebug("succeed");
-	view = new StudentMenu();
+	view = new StudentMenu(this);
 	view->show();
 	//指针写法新建窗体
 }

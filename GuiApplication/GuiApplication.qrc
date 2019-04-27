@@ -2,5 +2,6 @@
     <qresource prefix="/GuiApplication">
         <file>blue background.jpg</file>
         <file>MFC ODBC.png</file>
+        <file>origami.ico</file>
     </qresource>
 </RCC>

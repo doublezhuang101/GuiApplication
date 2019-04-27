@@ -42,82 +42,151 @@ public:
     QLabel *label_17;
     QLabel *label_3;
     QLabel *label_8;
+    QLabel *label_19;
 
     void setupUi(QWidget *SearchPage)
     {
         if (SearchPage->objectName().isEmpty())
             SearchPage->setObjectName(QString::fromUtf8("SearchPage"));
-        SearchPage->resize(680, 455);
+        SearchPage->resize(926, 595);
         label = new QLabel(SearchPage);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(160, 40, 171, 20));
+        label->setGeometry(QRect(180, 70, 251, 41));
+        label->setStyleSheet(QString::fromUtf8("font: 12pt \"Adobe Devanagari\";\n"
+"font: 13pt \"\346\245\267\344\275\223\";"));
         label_2 = new QLabel(SearchPage);
         label_2->setObjectName(QString::fromUtf8("label_2"));
-        label_2->setGeometry(QRect(40, 120, 131, 31));
+        label_2->setGeometry(QRect(160, 140, 181, 51));
+        label_2->setStyleSheet(QString::fromUtf8("font: 12pt \"Adobe Devanagari\";\n"
+"font: 13pt \"\346\245\267\344\275\223\";"));
         pushButton = new QPushButton(SearchPage);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(490, 40, 75, 23));
+        pushButton->setGeometry(QRect(630, 80, 91, 31));
+        pushButton->setStyleSheet(QString::fromUtf8("font: 12pt \"Adobe Devanagari\";\n"
+"font: 13pt \"\346\245\267\344\275\223\";"));
         lineEdit = new QLineEdit(SearchPage);
         lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
-        lineEdit->setGeometry(QRect(340, 40, 113, 20));
+        lineEdit->setGeometry(QRect(460, 80, 151, 31));
+        lineEdit->setStyleSheet(QString::fromUtf8("font: 12pt \"Adobe Devanagari\";\n"
+"font: 13pt \"\346\245\267\344\275\223\";"));
         Exit = new QPushButton(SearchPage);
         Exit->setObjectName(QString::fromUtf8("Exit"));
-        Exit->setGeometry(QRect(530, 400, 75, 23));
+        Exit->setGeometry(QRect(720, 520, 151, 41));
+        Exit->setStyleSheet(QString::fromUtf8("font: 12pt \"Adobe Devanagari\";\n"
+"font: 13pt \"\346\245\267\344\275\223\";"));
         label_5 = new QLabel(SearchPage);
         label_5->setObjectName(QString::fromUtf8("label_5"));
-        label_5->setGeometry(QRect(90, 220, 54, 12));
+        label_5->setGeometry(QRect(160, 280, 111, 31));
+        label_5->setStyleSheet(QString::fromUtf8("font: 12pt \"Adobe Devanagari\";\n"
+"font: 13pt \"\346\245\267\344\275\223\";"));
         label_18 = new QLabel(SearchPage);
         label_18->setObjectName(QString::fromUtf8("label_18"));
-        label_18->setGeometry(QRect(470, 250, 54, 12));
+        label_18->setGeometry(QRect(650, 330, 101, 51));
+        label_18->setStyleSheet(QString::fromUtf8("font: 12pt \"Adobe Devanagari\";\n"
+"font: 13pt \"\346\245\267\344\275\223\";"));
         label_10 = new QLabel(SearchPage);
         label_10->setObjectName(QString::fromUtf8("label_10"));
-        label_10->setGeometry(QRect(350, 240, 101, 41));
+        label_10->setGeometry(QRect(480, 340, 121, 41));
+        label_10->setStyleSheet(QString::fromUtf8("font: 12pt \"Adobe Devanagari\";\n"
+"font: 13pt \"\346\245\267\344\275\223\";"));
         label_4 = new QLabel(SearchPage);
         label_4->setObjectName(QString::fromUtf8("label_4"));
-        label_4->setGeometry(QRect(90, 270, 54, 12));
+        label_4->setGeometry(QRect(160, 330, 111, 51));
+        label_4->setStyleSheet(QString::fromUtf8("font: 12pt \"Adobe Devanagari\";\n"
+"font: 13pt \"\346\245\267\344\275\223\";"));
         label_12 = new QLabel(SearchPage);
         label_12->setObjectName(QString::fromUtf8("label_12"));
-        label_12->setGeometry(QRect(180, 220, 54, 12));
+        label_12->setGeometry(QRect(290, 280, 81, 31));
+        label_12->setStyleSheet(QString::fromUtf8("font: 12pt \"Adobe Devanagari\";\n"
+"font: 13pt \"\346\245\267\344\275\223\";"));
         label_13 = new QLabel(SearchPage);
         label_13->setObjectName(QString::fromUtf8("label_13"));
-        label_13->setGeometry(QRect(180, 270, 54, 12));
+        label_13->setGeometry(QRect(290, 340, 81, 31));
+        label_13->setStyleSheet(QString::fromUtf8("font: 12pt \"Adobe Devanagari\";\n"
+"font: 13pt \"\346\245\267\344\275\223\";"));
         label_9 = new QLabel(SearchPage);
         label_9->setObjectName(QString::fromUtf8("label_9"));
-        label_9->setGeometry(QRect(350, 200, 81, 21));
+        label_9->setGeometry(QRect(480, 270, 121, 51));
+        label_9->setStyleSheet(QString::fromUtf8("font: 12pt \"Adobe Devanagari\";\n"
+"font: 13pt \"\346\245\267\344\275\223\";"));
         label_16 = new QLabel(SearchPage);
         label_16->setObjectName(QString::fromUtf8("label_16"));
-        label_16->setGeometry(QRect(470, 170, 54, 12));
+        label_16->setGeometry(QRect(650, 220, 101, 41));
+        label_16->setStyleSheet(QString::fromUtf8("font: 12pt \"Adobe Devanagari\";\n"
+"font: 13pt \"\346\245\267\344\275\223\";"));
         label_7 = new QLabel(SearchPage);
         label_7->setObjectName(QString::fromUtf8("label_7"));
-        label_7->setGeometry(QRect(90, 370, 54, 12));
+        label_7->setGeometry(QRect(160, 460, 111, 41));
+        label_7->setStyleSheet(QString::fromUtf8("font: 12pt \"Adobe Devanagari\";\n"
+"font: 13pt \"\346\245\267\344\275\223\";"));
         label_11 = new QLabel(SearchPage);
         label_11->setObjectName(QString::fromUtf8("label_11"));
-        label_11->setGeometry(QRect(180, 160, 91, 31));
+        label_11->setGeometry(QRect(290, 220, 91, 31));
+        label_11->setStyleSheet(QString::fromUtf8("font: 12pt \"Adobe Devanagari\";\n"
+"font: 13pt \"\346\245\267\344\275\223\";"));
         label_6 = new QLabel(SearchPage);
         label_6->setObjectName(QString::fromUtf8("label_6"));
-        label_6->setGeometry(QRect(90, 320, 81, 16));
+        label_6->setGeometry(QRect(160, 390, 111, 41));
+        label_6->setStyleSheet(QString::fromUtf8("font: 12pt \"Adobe Devanagari\";\n"
+"font: 13pt \"\346\245\267\344\275\223\";"));
         label_14 = new QLabel(SearchPage);
         label_14->setObjectName(QString::fromUtf8("label_14"));
-        label_14->setGeometry(QRect(180, 320, 54, 12));
+        label_14->setGeometry(QRect(290, 400, 91, 31));
+        label_14->setStyleSheet(QString::fromUtf8("font: 12pt \"Adobe Devanagari\";\n"
+"font: 13pt \"\346\245\267\344\275\223\";"));
         label_15 = new QLabel(SearchPage);
         label_15->setObjectName(QString::fromUtf8("label_15"));
-        label_15->setGeometry(QRect(180, 370, 54, 12));
+        label_15->setGeometry(QRect(290, 461, 71, 31));
+        label_15->setStyleSheet(QString::fromUtf8("font: 12pt \"Adobe Devanagari\";\n"
+"font: 13pt \"\346\245\267\344\275\223\";"));
         label_17 = new QLabel(SearchPage);
         label_17->setObjectName(QString::fromUtf8("label_17"));
-        label_17->setGeometry(QRect(470, 210, 54, 12));
+        label_17->setGeometry(QRect(650, 270, 81, 41));
+        label_17->setStyleSheet(QString::fromUtf8("font: 12pt \"Adobe Devanagari\";\n"
+"font: 13pt \"\346\245\267\344\275\223\";"));
         label_3 = new QLabel(SearchPage);
         label_3->setObjectName(QString::fromUtf8("label_3"));
-        label_3->setGeometry(QRect(90, 170, 54, 12));
+        label_3->setGeometry(QRect(163, 210, 101, 41));
+        label_3->setStyleSheet(QString::fromUtf8("font: 12pt \"Adobe Devanagari\";\n"
+"font: 13pt \"\346\245\267\344\275\223\";"));
         label_8 = new QLabel(SearchPage);
         label_8->setObjectName(QString::fromUtf8("label_8"));
-        label_8->setGeometry(QRect(350, 160, 121, 31));
+        label_8->setGeometry(QRect(480, 220, 161, 31));
         label_8->setMouseTracking(false);
         label_8->setTabletTracking(false);
         label_8->setAcceptDrops(false);
         label_8->setAutoFillBackground(false);
+        label_8->setStyleSheet(QString::fromUtf8("font: 12pt \"Adobe Devanagari\";\n"
+"font: 13pt \"\346\245\267\344\275\223\";"));
         label_8->setScaledContents(false);
         label_8->setWordWrap(false);
         label_8->setOpenExternalLinks(false);
+        label_19 = new QLabel(SearchPage);
+        label_19->setObjectName(QString::fromUtf8("label_19"));
+        label_19->setGeometry(QRect(-10, -10, 951, 621));
+        label_19->setPixmap(QPixmap(QString::fromUtf8("background.jpg")));
+        label_19->raise();
+        label->raise();
+        label_2->raise();
+        pushButton->raise();
+        lineEdit->raise();
+        Exit->raise();
+        label_5->raise();
+        label_18->raise();
+        label_10->raise();
+        label_4->raise();
+        label_12->raise();
+        label_13->raise();
+        label_9->raise();
+        label_16->raise();
+        label_7->raise();
+        label_11->raise();
+        label_6->raise();
+        label_14->raise();
+        label_15->raise();
+        label_17->raise();
+        label_3->raise();
+        label_8->raise();
 
         retranslateUi(SearchPage);
 
@@ -147,6 +216,9 @@ public:
         label_17->setText(QApplication::translate("SearchPage", "TextLabel", nullptr));
         label_3->setText(QApplication::translate("SearchPage", "\345\255\246\345\217\267", nullptr));
         label_8->setText(QApplication::translate("SearchPage", "C\350\257\255\350\250\200\350\257\276\347\250\213\350\256\276\350\256\241\346\210\220\347\273\251", nullptr));
+        label_19->setStyleSheet(QApplication::translate("SearchPage", "font: 12pt \"Adobe Devanagari\";\n"
+"font: 13pt \"\346\245\267\344\275\223\";", nullptr));
+        label_19->setText(QString());
     } // retranslateUi
 
 };

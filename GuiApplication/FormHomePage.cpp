@@ -28,8 +28,6 @@ void FormHomePage::ConnectMysql()
 	{
 		qDebug() << "False";
 	}//确认是否连接成功
-	
-
 	QSqlQuery query("SELECT studentinformation.`出生年月` ,studentinformation.`学号` FROM  `password`.`studentinformation` LIMIT 0,1000");
 	while (query.next())
 	{
@@ -43,12 +41,10 @@ void FormHomePage::ConnectMysql()
 		int temp44 = int((20190428-num)/10000);
 		string temp3 = to_string(temp44);
 		QString q_str = QString::fromStdString(temp3);
-		QSqlQuery query("UPDATE `password`.`studentinformation` SET `年龄` = '"+ q_str +
+		QSqlQuery query("UPDATE `password`.`studentinformation` SET `年龄` = '"
+			+ q_str +
 			"' WHERE `学号` = '"+temp2+"'");
 	}
-
-
-
 	if (db.open())
 	{
 		qDebug() << "success!";
@@ -71,30 +67,6 @@ void FormHomePage::ConnectMysql()
 	{
 		qDebug() << "fail";
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 QSqlDatabase FormHomePage::InitMySql()

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>906</width>
-    <height>534</height>
+    <width>910</width>
+    <height>581</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,11 +17,22 @@
    <widget class="QPushButton" name="startButton">
     <property name="geometry">
      <rect>
-      <x>450</x>
-      <y>410</y>
-      <width>101</width>
+      <x>460</x>
+      <y>450</y>
+      <width>121</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 13pt &quot;楷体&quot;;
+background-color:white;
+color: black;   
+border-radius: 12px;  
+border: 2px groove gray;
+border-style: outset;
+hover{background-color:blue; color: black;}
+background-color:rgb(85, 170, 255);
+border-style: inset;</string>
     </property>
     <property name="text">
      <string>Enter|进入</string>
@@ -30,10 +41,10 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>-20</x>
       <y>-10</y>
-      <width>921</width>
-      <height>511</height>
+      <width>941</width>
+      <height>561</height>
      </rect>
     </property>
     <property name="text">
@@ -49,14 +60,25 @@
    <widget class="QPushButton" name="closeButton">
     <property name="geometry">
      <rect>
-      <x>630</x>
-      <y>410</y>
-      <width>31</width>
+      <x>620</x>
+      <y>450</y>
+      <width>81</width>
       <height>31</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 13pt &quot;楷体&quot;;
+background-color:white;
+color: black;   
+border-radius: 12px;  
+border: 2px groove gray;
+border-style: outset;
+hover{background-color:blue; color: black;}
+background-color:rgb(85, 170, 255);
+border-style: inset;</string>
+    </property>
     <property name="text">
-     <string>X</string>
+     <string>退出系统</string>
     </property>
    </widget>
    <zorder>label</zorder>
@@ -68,7 +90,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>906</width>
+     <width>910</width>
      <height>23</height>
     </rect>
    </property>
@@ -85,6 +107,7 @@
  <layoutdefault spacing="6" margin="11"/>
  <resources>
   <include location="GuiApplication.qrc"/>
+  <include location="C:/Users/Double_zhuang/.designer/backup/GuiApplication.qrc"/>
  </resources>
  <connections/>
 </ui>
