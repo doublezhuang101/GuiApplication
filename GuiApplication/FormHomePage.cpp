@@ -1,8 +1,9 @@
 #include "FormHomePage.h"
+#include <string>
 #if _MSC_VER >= 1600
 #pragma execution_character_set("utf-8")
 #endif
-
+using namespace std;
 
 FormHomePage::FormHomePage(QWidget *parent)
 	: QWidget(parent)
@@ -28,6 +29,26 @@ void FormHomePage::ConnectMysql()
 		qDebug() << "False";
 	}//确认是否连接成功
 	
+
+	QSqlQuery query("SELECT studentinformation.`出生年月` ,studentinformation.`学号` FROM  `password`.`studentinformation` LIMIT 0,1000");
+	while (query.next())
+	{
+		QString temp = query.value(0).toString();
+		QString temp2 = query.value(1).toString();
+		//qDebug() << query.value(0).toString();
+		string str = temp.toStdString();
+		str.erase(4, 1);
+		str.erase(6, 1);
+		int num = atoi(str.c_str());
+		int temp44 = int((20190428-num)/10000);
+		string temp3 = to_string(temp44);
+		QString q_str = QString::fromStdString(temp3);
+		QSqlQuery query("UPDATE `password`.`studentinformation` SET `年龄` = '"+ q_str +
+			"' WHERE `学号` = '"+temp2+"'");
+	}
+
+
+
 	if (db.open())
 	{
 		qDebug() << "success!";
@@ -50,6 +71,30 @@ void FormHomePage::ConnectMysql()
 	{
 		qDebug() << "fail";
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 QSqlDatabase FormHomePage::InitMySql()

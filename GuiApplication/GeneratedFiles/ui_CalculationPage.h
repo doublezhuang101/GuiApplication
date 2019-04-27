@@ -28,6 +28,7 @@ public:
     QLabel *label_6;
     QLabel *label_7;
     QPushButton *pushButton;
+    QPushButton *pushButton_2;
 
     void setupUi(QWidget *CalculationPage)
     {
@@ -59,6 +60,9 @@ public:
         pushButton = new QPushButton(CalculationPage);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
         pushButton->setGeometry(QRect(530, 370, 75, 23));
+        pushButton_2 = new QPushButton(CalculationPage);
+        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
+        pushButton_2->setGeometry(QRect(350, 370, 75, 23));
 
         retranslateUi(CalculationPage);
 
@@ -76,6 +80,7 @@ public:
         label_6->setText(QApplication::translate("CalculationPage", "\345\244\247\345\255\246\350\213\261\350\257\255\345\271\263\345\235\207\346\210\220\347\273\251\357\274\232", nullptr));
         label_7->setText(QApplication::translate("CalculationPage", "TextLabel", nullptr));
         pushButton->setText(QString());
+        pushButton_2->setText(QApplication::translate("CalculationPage", "PushButton", nullptr));
     } // retranslateUi
 
 };
