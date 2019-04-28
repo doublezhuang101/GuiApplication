@@ -15,7 +15,7 @@ DeletePage::DeletePage(QWidget *parent)
 	ui.setupUi(this);
 	ui.label->setText("请输入要查询的学号:");
 	ui.pushButton_2->setText("返回上一级");
-	ui.lineEdit->setText("2018023417");
+	ui.lineEdit->setText("");
 	ui.label_11->setText("");
 	ui.label_12->setText(""); 
 	ui.label_13->setText("");

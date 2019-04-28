@@ -13,12 +13,11 @@ int main(int argc, char *argv[])
 	QApplication a(argc, argv);
 
 	QString strPath = QApplication::applicationDirPath();
-	strPath = strPath + "tobiichi_origami.png";
+	strPath = strPath + "E:\\Study Code\\1\\x64\\Debug\\tobiichi_origami.png";
 	a.setWindowIcon(QIcon(strPath));
 
 	GuiApplication w;
 	w.show();
 	return a.exec();
-	//cout << "hello world" << endl;
-	//return 0;
+
 }

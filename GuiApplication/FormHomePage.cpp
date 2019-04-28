@@ -35,8 +35,8 @@ void FormHomePage::ConnectMysql()
 		QString temp2 = query.value(1).toString();
 		//qDebug() << query.value(0).toString();
 		string str = temp.toStdString();
-		str.erase(4, 1);
-		str.erase(6, 1);
+		str.erase(4, 1);//除去第一个-
+		str.erase(6, 1);//除去第二个-
 		int num = atoi(str.c_str());
 		int temp44 = int((20190428-num)/10000);
 		string temp3 = to_string(temp44);

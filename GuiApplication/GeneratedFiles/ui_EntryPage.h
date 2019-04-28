@@ -46,7 +46,7 @@ public:
     {
         if (EntryPage->objectName().isEmpty())
             EntryPage->setObjectName(QString::fromUtf8("EntryPage"));
-        EntryPage->resize(911, 580);
+        EntryPage->resize(921, 590);
         label = new QLabel(EntryPage);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(30, 50, 351, 61));

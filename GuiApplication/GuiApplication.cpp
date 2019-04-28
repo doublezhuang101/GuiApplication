@@ -12,7 +12,7 @@ GuiApplication::GuiApplication(QWidget *parent)
 	: QMainWindow(parent)
 {
 	ui.setupUi(this);
-	setWindowTitle(QString::fromUtf8("设计者2018023417，苗壮"));
+	setWindowTitle(QString::fromUtf8("制作者2018023417，苗壮"));
 	QStringList drivers = QSqlDatabase::drivers();//打印MySQL驱动查看
 	qDebug() << drivers;
 	//InitMySql();
