@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'EntryPage.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.2
+** Created by: Qt User Interface Compiler version 5.11.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -45,88 +45,88 @@ public:
     void setupUi(QWidget *EntryPage)
     {
         if (EntryPage->objectName().isEmpty())
-            EntryPage->setObjectName(QString::fromUtf8("EntryPage"));
+            EntryPage->setObjectName(QStringLiteral("EntryPage"));
         EntryPage->resize(921, 590);
         label = new QLabel(EntryPage);
-        label->setObjectName(QString::fromUtf8("label"));
+        label->setObjectName(QStringLiteral("label"));
         label->setGeometry(QRect(30, 50, 351, 61));
         label->setStyleSheet(QString::fromUtf8("font: 18pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
         label_2 = new QLabel(EntryPage);
-        label_2->setObjectName(QString::fromUtf8("label_2"));
+        label_2->setObjectName(QStringLiteral("label_2"));
         label_2->setGeometry(QRect(140, 140, 91, 41));
-        label_2->setStyleSheet(QString::fromUtf8("font: 14pt \"Adobe Devanagari\";"));
+        label_2->setStyleSheet(QStringLiteral("font: 14pt \"Adobe Devanagari\";"));
         label_3 = new QLabel(EntryPage);
-        label_3->setObjectName(QString::fromUtf8("label_3"));
+        label_3->setObjectName(QStringLiteral("label_3"));
         label_3->setGeometry(QRect(140, 210, 81, 41));
-        label_3->setStyleSheet(QString::fromUtf8("font: 14pt \"Adobe Devanagari\";"));
+        label_3->setStyleSheet(QStringLiteral("font: 14pt \"Adobe Devanagari\";"));
         label_4 = new QLabel(EntryPage);
-        label_4->setObjectName(QString::fromUtf8("label_4"));
+        label_4->setObjectName(QStringLiteral("label_4"));
         label_4->setGeometry(QRect(140, 280, 81, 41));
-        label_4->setStyleSheet(QString::fromUtf8("font: 14pt \"Adobe Devanagari\";"));
+        label_4->setStyleSheet(QStringLiteral("font: 14pt \"Adobe Devanagari\";"));
         label_5 = new QLabel(EntryPage);
-        label_5->setObjectName(QString::fromUtf8("label_5"));
+        label_5->setObjectName(QStringLiteral("label_5"));
         label_5->setGeometry(QRect(140, 350, 101, 41));
-        label_5->setStyleSheet(QString::fromUtf8("font: 14pt \"Adobe Devanagari\";"));
+        label_5->setStyleSheet(QStringLiteral("font: 14pt \"Adobe Devanagari\";"));
         label_6 = new QLabel(EntryPage);
-        label_6->setObjectName(QString::fromUtf8("label_6"));
+        label_6->setObjectName(QStringLiteral("label_6"));
         label_6->setGeometry(QRect(140, 420, 91, 51));
-        label_6->setStyleSheet(QString::fromUtf8("font: 14pt \"Adobe Devanagari\";"));
+        label_6->setStyleSheet(QStringLiteral("font: 14pt \"Adobe Devanagari\";"));
         label_7 = new QLabel(EntryPage);
-        label_7->setObjectName(QString::fromUtf8("label_7"));
+        label_7->setObjectName(QStringLiteral("label_7"));
         label_7->setGeometry(QRect(420, 130, 181, 51));
-        label_7->setStyleSheet(QString::fromUtf8("font: 14pt \"Adobe Devanagari\";"));
+        label_7->setStyleSheet(QStringLiteral("font: 14pt \"Adobe Devanagari\";"));
         label_8 = new QLabel(EntryPage);
-        label_8->setObjectName(QString::fromUtf8("label_8"));
+        label_8->setObjectName(QStringLiteral("label_8"));
         label_8->setGeometry(QRect(420, 210, 151, 51));
-        label_8->setStyleSheet(QString::fromUtf8("font: 14pt \"Adobe Devanagari\";"));
+        label_8->setStyleSheet(QStringLiteral("font: 14pt \"Adobe Devanagari\";"));
         label_9 = new QLabel(EntryPage);
-        label_9->setObjectName(QString::fromUtf8("label_9"));
+        label_9->setObjectName(QStringLiteral("label_9"));
         label_9->setGeometry(QRect(420, 270, 131, 61));
-        label_9->setStyleSheet(QString::fromUtf8("font: 14pt \"Adobe Devanagari\";"));
+        label_9->setStyleSheet(QStringLiteral("font: 14pt \"Adobe Devanagari\";"));
         lineEdit = new QLineEdit(EntryPage);
-        lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
+        lineEdit->setObjectName(QStringLiteral("lineEdit"));
         lineEdit->setGeometry(QRect(230, 150, 111, 20));
-        lineEdit->setStyleSheet(QString::fromUtf8("font: 14pt \"Adobe Devanagari\";"));
+        lineEdit->setStyleSheet(QStringLiteral("font: 14pt \"Adobe Devanagari\";"));
         lineEdit_2 = new QLineEdit(EntryPage);
-        lineEdit_2->setObjectName(QString::fromUtf8("lineEdit_2"));
+        lineEdit_2->setObjectName(QStringLiteral("lineEdit_2"));
         lineEdit_2->setGeometry(QRect(230, 230, 111, 20));
-        lineEdit_2->setStyleSheet(QString::fromUtf8("font: 14pt \"Adobe Devanagari\";"));
+        lineEdit_2->setStyleSheet(QStringLiteral("font: 14pt \"Adobe Devanagari\";"));
         lineEdit_3 = new QLineEdit(EntryPage);
-        lineEdit_3->setObjectName(QString::fromUtf8("lineEdit_3"));
+        lineEdit_3->setObjectName(QStringLiteral("lineEdit_3"));
         lineEdit_3->setGeometry(QRect(230, 290, 113, 20));
-        lineEdit_3->setStyleSheet(QString::fromUtf8("font: 14pt \"Adobe Devanagari\";"));
+        lineEdit_3->setStyleSheet(QStringLiteral("font: 14pt \"Adobe Devanagari\";"));
         lineEdit_4 = new QLineEdit(EntryPage);
-        lineEdit_4->setObjectName(QString::fromUtf8("lineEdit_4"));
+        lineEdit_4->setObjectName(QStringLiteral("lineEdit_4"));
         lineEdit_4->setGeometry(QRect(230, 360, 113, 20));
-        lineEdit_4->setStyleSheet(QString::fromUtf8("font: 14pt \"Adobe Devanagari\";"));
+        lineEdit_4->setStyleSheet(QStringLiteral("font: 14pt \"Adobe Devanagari\";"));
         lineEdit_5 = new QLineEdit(EntryPage);
-        lineEdit_5->setObjectName(QString::fromUtf8("lineEdit_5"));
+        lineEdit_5->setObjectName(QStringLiteral("lineEdit_5"));
         lineEdit_5->setGeometry(QRect(230, 440, 113, 20));
-        lineEdit_5->setStyleSheet(QString::fromUtf8("font: 14pt \"Adobe Devanagari\";"));
+        lineEdit_5->setStyleSheet(QStringLiteral("font: 14pt \"Adobe Devanagari\";"));
         lineEdit_6 = new QLineEdit(EntryPage);
-        lineEdit_6->setObjectName(QString::fromUtf8("lineEdit_6"));
+        lineEdit_6->setObjectName(QStringLiteral("lineEdit_6"));
         lineEdit_6->setGeometry(QRect(610, 140, 113, 20));
-        lineEdit_6->setStyleSheet(QString::fromUtf8("font: 14pt \"Adobe Devanagari\";"));
+        lineEdit_6->setStyleSheet(QStringLiteral("font: 14pt \"Adobe Devanagari\";"));
         lineEdit_7 = new QLineEdit(EntryPage);
-        lineEdit_7->setObjectName(QString::fromUtf8("lineEdit_7"));
+        lineEdit_7->setObjectName(QStringLiteral("lineEdit_7"));
         lineEdit_7->setGeometry(QRect(610, 220, 113, 20));
-        lineEdit_7->setStyleSheet(QString::fromUtf8("font: 14pt \"Adobe Devanagari\";"));
+        lineEdit_7->setStyleSheet(QStringLiteral("font: 14pt \"Adobe Devanagari\";"));
         lineEdit_8 = new QLineEdit(EntryPage);
-        lineEdit_8->setObjectName(QString::fromUtf8("lineEdit_8"));
+        lineEdit_8->setObjectName(QStringLiteral("lineEdit_8"));
         lineEdit_8->setGeometry(QRect(610, 290, 113, 20));
-        lineEdit_8->setStyleSheet(QString::fromUtf8("font: 14pt \"Adobe Devanagari\";"));
+        lineEdit_8->setStyleSheet(QStringLiteral("font: 14pt \"Adobe Devanagari\";"));
         ConfirmButton = new QPushButton(EntryPage);
-        ConfirmButton->setObjectName(QString::fromUtf8("ConfirmButton"));
+        ConfirmButton->setObjectName(QStringLiteral("ConfirmButton"));
         ConfirmButton->setGeometry(QRect(560, 500, 121, 41));
-        ConfirmButton->setStyleSheet(QString::fromUtf8("font: 14pt \"Adobe Devanagari\";"));
+        ConfirmButton->setStyleSheet(QStringLiteral("font: 14pt \"Adobe Devanagari\";"));
         Exit = new QPushButton(EntryPage);
-        Exit->setObjectName(QString::fromUtf8("Exit"));
+        Exit->setObjectName(QStringLiteral("Exit"));
         Exit->setGeometry(QRect(760, 500, 111, 41));
-        Exit->setStyleSheet(QString::fromUtf8("font: 14pt \"Adobe Devanagari\";"));
+        Exit->setStyleSheet(QStringLiteral("font: 14pt \"Adobe Devanagari\";"));
         label_10 = new QLabel(EntryPage);
-        label_10->setObjectName(QString::fromUtf8("label_10"));
+        label_10->setObjectName(QStringLiteral("label_10"));
         label_10->setGeometry(QRect(-10, 0, 991, 591));
-        label_10->setStyleSheet(QString::fromUtf8("font: 14pt \"Adobe Devanagari\";"));
+        label_10->setStyleSheet(QStringLiteral("font: 14pt \"Adobe Devanagari\";"));
         label_10->setPixmap(QPixmap(QString::fromUtf8("background.jpg")));
         label_10->raise();
         label->raise();
