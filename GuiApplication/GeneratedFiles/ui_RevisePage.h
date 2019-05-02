@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'RevisePage.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.2
+** Created by: Qt User Interface Compiler version 5.11.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -48,18 +48,18 @@ public:
     void setupUi(QWidget *RevisePage)
     {
         if (RevisePage->objectName().isEmpty())
-            RevisePage->setObjectName(QString::fromUtf8("RevisePage"));
+            RevisePage->setObjectName(QStringLiteral("RevisePage"));
         RevisePage->resize(924, 593);
         label_7 = new QLabel(RevisePage);
-        label_7->setObjectName(QString::fromUtf8("label_7"));
+        label_7->setObjectName(QStringLiteral("label_7"));
         label_7->setGeometry(QRect(110, 450, 111, 51));
         label_7->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
         label = new QLabel(RevisePage);
-        label->setObjectName(QString::fromUtf8("label"));
+        label->setObjectName(QStringLiteral("label"));
         label->setGeometry(QRect(180, 20, 221, 61));
         label->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
         label_8 = new QLabel(RevisePage);
-        label_8->setObjectName(QString::fromUtf8("label_8"));
+        label_8->setObjectName(QStringLiteral("label_8"));
         label_8->setGeometry(QRect(400, 160, 171, 61));
         label_8->setMouseTracking(false);
         label_8->setTabletTracking(false);
@@ -70,83 +70,83 @@ public:
         label_8->setWordWrap(false);
         label_8->setOpenExternalLinks(false);
         label_5 = new QLabel(RevisePage);
-        label_5->setObjectName(QString::fromUtf8("label_5"));
+        label_5->setObjectName(QStringLiteral("label_5"));
         label_5->setGeometry(QRect(110, 250, 91, 31));
         label_5->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
         pushButton = new QPushButton(RevisePage);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        pushButton->setObjectName(QStringLiteral("pushButton"));
         pushButton->setGeometry(QRect(630, 40, 101, 31));
         pushButton->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
         label_2 = new QLabel(RevisePage);
-        label_2->setObjectName(QString::fromUtf8("label_2"));
+        label_2->setObjectName(QStringLiteral("label_2"));
         label_2->setGeometry(QRect(60, 100, 181, 51));
         label_2->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
         label_10 = new QLabel(RevisePage);
-        label_10->setObjectName(QString::fromUtf8("label_10"));
+        label_10->setObjectName(QStringLiteral("label_10"));
         label_10->setGeometry(QRect(400, 310, 121, 61));
         label_10->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
         label_3 = new QLabel(RevisePage);
-        label_3->setObjectName(QString::fromUtf8("label_3"));
+        label_3->setObjectName(QStringLiteral("label_3"));
         label_3->setGeometry(QRect(108, 170, 91, 41));
         label_3->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
         lineEdit = new QLineEdit(RevisePage);
-        lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
+        lineEdit->setObjectName(QStringLiteral("lineEdit"));
         lineEdit->setGeometry(QRect(420, 40, 191, 31));
         lineEdit->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
         label_4 = new QLabel(RevisePage);
-        label_4->setObjectName(QString::fromUtf8("label_4"));
+        label_4->setObjectName(QStringLiteral("label_4"));
         label_4->setGeometry(QRect(110, 310, 111, 41));
         label_4->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
         label_9 = new QLabel(RevisePage);
-        label_9->setObjectName(QString::fromUtf8("label_9"));
+        label_9->setObjectName(QStringLiteral("label_9"));
         label_9->setGeometry(QRect(400, 250, 121, 51));
         label_9->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
         label_6 = new QLabel(RevisePage);
-        label_6->setObjectName(QString::fromUtf8("label_6"));
+        label_6->setObjectName(QStringLiteral("label_6"));
         label_6->setGeometry(QRect(110, 370, 131, 61));
         label_6->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
         pushButton_2 = new QPushButton(RevisePage);
-        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
+        pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
         pushButton_2->setGeometry(QRect(500, 530, 151, 31));
         pushButton_2->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
         pushButton_4 = new QPushButton(RevisePage);
-        pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
+        pushButton_4->setObjectName(QStringLiteral("pushButton_4"));
         pushButton_4->setGeometry(QRect(700, 530, 141, 31));
         pushButton_4->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
         lineEdit_2 = new QLineEdit(RevisePage);
-        lineEdit_2->setObjectName(QString::fromUtf8("lineEdit_2"));
+        lineEdit_2->setObjectName(QStringLiteral("lineEdit_2"));
         lineEdit_2->setGeometry(QRect(230, 180, 111, 20));
         lineEdit_2->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
         lineEdit_3 = new QLineEdit(RevisePage);
-        lineEdit_3->setObjectName(QString::fromUtf8("lineEdit_3"));
+        lineEdit_3->setObjectName(QStringLiteral("lineEdit_3"));
         lineEdit_3->setGeometry(QRect(230, 260, 113, 20));
         lineEdit_3->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
         lineEdit_4 = new QLineEdit(RevisePage);
-        lineEdit_4->setObjectName(QString::fromUtf8("lineEdit_4"));
+        lineEdit_4->setObjectName(QStringLiteral("lineEdit_4"));
         lineEdit_4->setGeometry(QRect(230, 320, 113, 20));
         lineEdit_4->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
         lineEdit_5 = new QLineEdit(RevisePage);
-        lineEdit_5->setObjectName(QString::fromUtf8("lineEdit_5"));
+        lineEdit_5->setObjectName(QStringLiteral("lineEdit_5"));
         lineEdit_5->setGeometry(QRect(230, 390, 113, 20));
         lineEdit_5->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
         lineEdit_6 = new QLineEdit(RevisePage);
-        lineEdit_6->setObjectName(QString::fromUtf8("lineEdit_6"));
+        lineEdit_6->setObjectName(QStringLiteral("lineEdit_6"));
         lineEdit_6->setGeometry(QRect(230, 460, 113, 20));
         lineEdit_6->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
         lineEdit_7 = new QLineEdit(RevisePage);
-        lineEdit_7->setObjectName(QString::fromUtf8("lineEdit_7"));
+        lineEdit_7->setObjectName(QStringLiteral("lineEdit_7"));
         lineEdit_7->setGeometry(QRect(610, 180, 113, 20));
         lineEdit_7->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
         lineEdit_8 = new QLineEdit(RevisePage);
-        lineEdit_8->setObjectName(QString::fromUtf8("lineEdit_8"));
+        lineEdit_8->setObjectName(QStringLiteral("lineEdit_8"));
         lineEdit_8->setGeometry(QRect(610, 260, 113, 20));
         lineEdit_8->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
         lineEdit_9 = new QLineEdit(RevisePage);
-        lineEdit_9->setObjectName(QString::fromUtf8("lineEdit_9"));
+        lineEdit_9->setObjectName(QStringLiteral("lineEdit_9"));
         lineEdit_9->setGeometry(QRect(610, 330, 113, 20));
         lineEdit_9->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
         label_11 = new QLabel(RevisePage);
-        label_11->setObjectName(QString::fromUtf8("label_11"));
+        label_11->setObjectName(QStringLiteral("label_11"));
         label_11->setGeometry(QRect(-10, -20, 931, 641));
         label_11->setPixmap(QPixmap(QString::fromUtf8("background.jpg")));
         label_11->raise();

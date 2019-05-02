@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'FormHomePage.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.2
+** Created by: Qt User Interface Compiler version 5.11.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -30,21 +30,21 @@ public:
     void setupUi(QWidget *FormHomePage)
     {
         if (FormHomePage->objectName().isEmpty())
-            FormHomePage->setObjectName(QString::fromUtf8("FormHomePage"));
+            FormHomePage->setObjectName(QStringLiteral("FormHomePage"));
         FormHomePage->resize(924, 593);
         tableView = new QTableView(FormHomePage);
-        tableView->setObjectName(QString::fromUtf8("tableView"));
+        tableView->setObjectName(QStringLiteral("tableView"));
         tableView->setGeometry(QRect(10, 20, 901, 501));
         pushButton = new QPushButton(FormHomePage);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        pushButton->setObjectName(QStringLiteral("pushButton"));
         pushButton->setGeometry(QRect(720, 530, 131, 41));
         pushButton->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
         pushButton_2 = new QPushButton(FormHomePage);
-        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
+        pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
         pushButton_2->setGeometry(QRect(550, 530, 131, 41));
         pushButton_2->setStyleSheet(QString::fromUtf8("font: 14pt \"\345\215\216\346\226\207\346\245\267\344\275\223\";"));
         label = new QLabel(FormHomePage);
-        label->setObjectName(QString::fromUtf8("label"));
+        label->setObjectName(QStringLiteral("label"));
         label->setGeometry(QRect(-20, -10, 961, 631));
         label->setPixmap(QPixmap(QString::fromUtf8("background.jpg")));
         label->raise();
