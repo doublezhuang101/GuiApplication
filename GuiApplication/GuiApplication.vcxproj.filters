@@ -125,11 +125,6 @@
     </QtRcc>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Student.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="C:\Users\Double_zhuang\Desktop\qrc.rc" />
+    <ResourceCompile Include="qrc.rc" />
   </ItemGroup>
 </Project>
